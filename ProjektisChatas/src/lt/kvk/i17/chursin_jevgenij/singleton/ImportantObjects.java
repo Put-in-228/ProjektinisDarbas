@@ -1,5 +1,6 @@
 package lt.kvk.i17.chursin_jevgenij.singleton;
 
+import lt.kvk.i17.chursin_jevgenij.composite.GUIGroup;
 import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClients;
 import lt.kvk.i17.chursin_jevgenij.observer.ServerSubject;
 import lt.kvk.i17.chursin_jevgenij.state.RoomSpace;
@@ -11,6 +12,7 @@ public class ImportantObjects {
 	private ConnectedClients cc;
 	private RoomSpace rs;
 	private ServerSubject ss;
+	private GUIGroup gg;
 	
 	
 	public static ImportantObjects getInstance() {
@@ -33,6 +35,10 @@ public class ImportantObjects {
 		this.ss = ss;
 	}
 	
+	public void setGUIGroup(GUIGroup gg) {
+		this.gg = gg;
+	}
+	
 	public ConnectedClients getObjectPool() {
 		return this.cc;
 	}
@@ -43,5 +49,9 @@ public class ImportantObjects {
 	
 	public ServerSubject getObserverObject() {
 		return this.ss;
+	}
+	
+	public GUIGroup getGUIGroup() {
+		return this.gg;
 	}
 }
