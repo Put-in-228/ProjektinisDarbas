@@ -1,5 +1,6 @@
 package lt.kvk.i17.chursin_jevgenij.singleton;
 
+import lt.kvk.i17.chursin_jevgenij.builder.Soketas;
 import lt.kvk.i17.chursin_jevgenij.composite.GUIGroup;
 import lt.kvk.i17.chursin_jevgenij.filter.CriteriaGroup;
 import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClients;
@@ -12,9 +13,10 @@ public class ImportantObjects {
 	
 	private ConnectedClients cc;
 	private RoomSpace rs;
-	private ServerSubject ss;
+	private ServerSubject ss = null;
 	private GUIGroup gg;
 	private CriteriaGroup cg;
+	private Soketas client = null;
 	
 	
 	public static ImportantObjects getInstance() {
@@ -45,6 +47,10 @@ public class ImportantObjects {
 		this.cg = cg;
 	}
 	
+	public void setSoketas(Soketas client) {
+		this.client = client;
+	}
+	
 	public ConnectedClients getObjectPool() {
 		return this.cc;
 	}
@@ -63,5 +69,9 @@ public class ImportantObjects {
 	
 	public CriteriaGroup getCriteriaGroup() {
 		return this.cg;
+	}
+	
+	public Soketas getSoketas() {
+		return this.client;
 	}
 }

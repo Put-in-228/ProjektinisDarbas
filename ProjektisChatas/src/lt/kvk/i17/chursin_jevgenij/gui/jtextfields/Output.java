@@ -4,7 +4,7 @@ import javax.swing.JTextArea;
 
 public class Output extends JTextArea {
 	Output() {
-		this.setBounds(20, 0, 360, 550);
+		this.setBounds(10, 10, 380, 400);
 		this.setEditable(false);
 	}
 }

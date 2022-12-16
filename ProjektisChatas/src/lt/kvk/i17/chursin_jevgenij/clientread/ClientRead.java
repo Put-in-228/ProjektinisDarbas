@@ -7,7 +7,7 @@ import lt.kvk.i17.chursin_jevgenij.composite.GUIComponent;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class ClientRead {
-	public void read(DataInputStream in) {
+	public static void read(DataInputStream in) {
 		boolean check = true;
 		
 		String prefix = "/";

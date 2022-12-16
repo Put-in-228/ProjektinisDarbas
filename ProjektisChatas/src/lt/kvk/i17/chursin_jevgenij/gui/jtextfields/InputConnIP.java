@@ -4,7 +4,7 @@ import javax.swing.JTextArea;
 
 public class InputConnIP extends JTextArea {
 	InputConnIP() {
-		this.setBounds(0, 0, 10, 50);
+		this.setBounds(100, 10, 200, 40);
 		this.setEditable(true);
 	}
 }

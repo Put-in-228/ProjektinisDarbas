@@ -4,7 +4,7 @@ import javax.swing.JTextArea;
 
 public class InputChat extends JTextArea {
 	InputChat() {
-		this.setBounds(550, 20, 50, 360);
+		this.setBounds(10, 430, 380, 60);
 		this.setEditable(true);
 	}
 }
