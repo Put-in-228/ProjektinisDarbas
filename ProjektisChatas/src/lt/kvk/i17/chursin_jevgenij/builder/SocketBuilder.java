@@ -6,6 +6,8 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
+import com.dosse.upnp.UPnP;
+
 import lt.kvk.i17.chursin_jevgenij.connection_handling.ServerConnect;
 import lt.kvk.i17.chursin_jevgenij.connection_handling.StartServer;
 

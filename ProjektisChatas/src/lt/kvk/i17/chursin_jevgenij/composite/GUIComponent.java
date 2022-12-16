@@ -3,7 +3,7 @@ package lt.kvk.i17.chursin_jevgenij.composite;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JPanel;
-import javax.swing.JTextField;
+import javax.swing.JTextArea;
 
 public abstract class GUIComponent {
 	
@@ -35,7 +35,7 @@ public abstract class GUIComponent {
 		throw new UnsupportedOperationException();
 	}
 	
-	public JTextField getTextField() {
+	public JTextArea getTextArea() {
 		throw new UnsupportedOperationException();
 	}
 }

@@ -3,10 +3,10 @@ package lt.kvk.i17.chursin_jevgenij.composite;
 import javax.swing.JFrame;
 
 public class JFrameObject extends GUIComponent{
-	private String name;
-	private JFrame frame;
+	private final String name;
+	private final JFrame frame;
 	
-	JFrameObject(String name, JFrame frame) {
+	public JFrameObject(String name, JFrame frame) {
 		this.name = name;
 		this.frame = frame;
 	}

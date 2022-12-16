@@ -40,7 +40,6 @@ public class ConnectedClientThread extends Thread {
 	
 	public void send(String msg) {
 		if (in != null && out != null) {
-			CommunicationMethodsOut.sendInteger(out, msg.length());
 			CommunicationMethodsOut.sendString(out, msg);
 		}
 	}

@@ -3,10 +3,10 @@ package lt.kvk.i17.chursin_jevgenij.composite;
 import javax.swing.JButton;
 
 public class JButtonObject extends GUIComponent {
-	private String name;
-	private JButton button;
+	private final String name;
+	private final JButton button;
 	
-	JButtonObject(String name, JButton button) {
+	public JButtonObject(String name, JButton button) {
 		this.name = name;
 		this.button = button;
 	}

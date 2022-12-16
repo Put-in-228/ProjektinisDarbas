@@ -1,6 +1,7 @@
 package lt.kvk.i17.chursin_jevgenij.singleton;
 
 import lt.kvk.i17.chursin_jevgenij.composite.GUIGroup;
+import lt.kvk.i17.chursin_jevgenij.filter.CriteriaGroup;
 import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClients;
 import lt.kvk.i17.chursin_jevgenij.observer.ServerSubject;
 import lt.kvk.i17.chursin_jevgenij.state.RoomSpace;
@@ -13,6 +14,7 @@ public class ImportantObjects {
 	private RoomSpace rs;
 	private ServerSubject ss;
 	private GUIGroup gg;
+	private CriteriaGroup cg;
 	
 	
 	public static ImportantObjects getInstance() {
@@ -39,6 +41,10 @@ public class ImportantObjects {
 		this.gg = gg;
 	}
 	
+	public void setCriteriaGroup(CriteriaGroup cg) {
+		this.cg = cg;
+	}
+	
 	public ConnectedClients getObjectPool() {
 		return this.cc;
 	}
@@ -53,5 +59,9 @@ public class ImportantObjects {
 	
 	public GUIGroup getGUIGroup() {
 		return this.gg;
+	}
+	
+	public CriteriaGroup getCriteriaGroup() {
+		return this.cg;
 	}
 }

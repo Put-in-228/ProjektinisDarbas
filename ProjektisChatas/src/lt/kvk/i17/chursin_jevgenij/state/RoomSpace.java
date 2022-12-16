@@ -4,7 +4,6 @@ import java.net.Socket;
 
 import lt.kvk.i17.chursin_jevgenij.builder.Soketas;
 import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClientThread;
-import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClients;
 import lt.kvk.i17.chursin_jevgenij.singleton.Config;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
@@ -18,7 +17,7 @@ public class RoomSpace {
 	
 	Soketas server;
 	
-	RoomSpace(Soketas server, ConnectedClients pool) {
+	public RoomSpace(Soketas server) {
 		this.server = server;
 		this.chatRoomSpace = Config.getInstance().getAmount();
 		

@@ -5,16 +5,6 @@ import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 
 public class CommunicationMethodsOut {
-	public static void sendInteger(DataOutputStream connOut, int integerToSend) {
-		try {
-			connOut.writeInt(integerToSend);
-			connOut.flush();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
-	}
-	
 	public static void sendString(DataOutputStream connOut, String msg) {
 		byte[] msgInBytes = null;
 		try {
@@ -25,6 +15,13 @@ public class CommunicationMethodsOut {
 		}
 		
 		if (msgInBytes != null) {
+			try {
+				connOut.writeInt(msgInBytes.length);
+				connOut.flush();
+			} catch (IOException e1) {
+				e1.printStackTrace();
+			}
+			
 			for(int i = 0; i<msgInBytes.length; i++) {
 				try {
 					connOut.write(msgInBytes[i]);

@@ -1,7 +1,6 @@
 package lt.kvk.i17.chursin_jevgenij.command;
 
 import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClientThread;
-import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClients;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class DisconnectClient implements Command {

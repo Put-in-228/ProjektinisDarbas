@@ -3,10 +3,10 @@ package lt.kvk.i17.chursin_jevgenij.composite;
 import javax.swing.JPanel;
 
 public class JPanelObject extends GUIComponent{
-	private String name;
-	private JPanel panel;
+	private final String name;
+	private final JPanel panel;
 	
-	JPanelObject(String name, JPanel panel) {
+	public JPanelObject(String name, JPanel panel) {
 		this.name = name;
 		this.panel = panel;
 	}
