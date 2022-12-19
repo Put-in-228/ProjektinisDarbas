@@ -11,6 +11,7 @@ public class StartServerFacade {
 		ss.openPort();
 		ss.setupValues();
 		ss.initObjects();
+		//init MainFrame
 		ss.startListener();
 	}
 	

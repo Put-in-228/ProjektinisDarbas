@@ -27,4 +27,16 @@ public class CriteriaGroup {
 	public List<Criteria> getCriterias() {
 		return criterias;
 	}
+	
+	public Criteria getCriteriaByBannedWord(String bannedword) {
+		if (criterias.size() > 0) {
+			for (Criteria v : criterias) {
+				if (v.getBannedWord().equals(bannedword)) {
+					return v;
+				}
+			}
+		}
+		
+		return null;
+	}
 }

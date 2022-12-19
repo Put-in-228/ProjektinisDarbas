@@ -11,7 +11,7 @@ import lt.kvk.i17.chursin_jevgenij.facade.StartServerFacade;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class HostButton extends JButton {
-	HostButton() {
+	public HostButton() {
 		this.setBounds(30, 250, 140, 70);
 		this.setText("Host Chat");
 		this.addActionListener(new ActionListener() {
@@ -22,7 +22,7 @@ public class HostButton extends JButton {
 				StartServerFacade facade = new StartServerFacade(ss);
 				facade.start();
 				
-				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENU");
+				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
 				temp.getFrame().setVisible(false);
 				
 				GUIComponent main = ImportantObjects.getInstance().getGUIGroup().get("MAINFRAME");

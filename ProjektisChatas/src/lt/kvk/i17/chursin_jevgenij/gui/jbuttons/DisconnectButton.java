@@ -9,8 +9,8 @@ import lt.kvk.i17.chursin_jevgenij.composite.GUIComponent;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class DisconnectButton extends JButton {
-	DisconnectButton() {
-		this.setBounds(30, 30, 140, 70);
+	public DisconnectButton() {
+		this.setBounds(30, 10, 140, 70);
 		this.setText("Disconnect");
 		this.addActionListener(new ActionListener() {
 
@@ -18,6 +18,12 @@ public class DisconnectButton extends JButton {
 			public void actionPerformed(ActionEvent e) {
 				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINFRAME");
 				temp.getFrame().setVisible(false);
+				
+				if (ImportantObjects.getInstance().getServerFacade() == null) {
+					ImportantObjects.getInstance().getClientFacade().stop();
+				} else {
+					ImportantObjects.getInstance().getServerFacade().stop();
+				}
 				
 				GUIComponent menu = ImportantObjects.getInstance().getGUIGroup().get("MAINMENU");
 				menu.getFrame().setVisible(true);

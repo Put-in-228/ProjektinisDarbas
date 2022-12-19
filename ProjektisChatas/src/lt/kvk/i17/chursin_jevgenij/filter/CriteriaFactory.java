@@ -4,7 +4,7 @@ public class CriteriaFactory implements Criteria{
 
 	private final String bannedword;
 	
-	CriteriaFactory(String bannedword) {
+	public CriteriaFactory(String bannedword) {
 		this.bannedword = bannedword;
 	}
 	
@@ -23,6 +23,11 @@ public class CriteriaFactory implements Criteria{
 		}
 		
 		return newWords;
+	}
+
+	@Override
+	public String getBannedWord() {
+		return this.bannedword;
 	}
 
 }

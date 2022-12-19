@@ -5,6 +5,9 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.JTextArea;
 
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.Frame;
+import lt.kvk.i17.chursin_jevgenij.gui.jtables.Table;
+
 public abstract class GUIComponent {
 	
 	public void add(GUIComponent component) {
@@ -27,7 +30,7 @@ public abstract class GUIComponent {
 		throw new UnsupportedOperationException();
 	}
 	
-	public JFrame getFrame() {
+	public Frame getFrame() {
 		throw new UnsupportedOperationException();
 	}
 	
@@ -36,6 +39,10 @@ public abstract class GUIComponent {
 	}
 	
 	public JTextArea getTextArea() {
+		throw new UnsupportedOperationException();
+	}
+	
+	public Table getTable() {
 		throw new UnsupportedOperationException();
 	}
 }

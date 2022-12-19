@@ -4,60 +4,68 @@ import javax.swing.JButton;
 
 import lt.kvk.i17.chursin_jevgenij.composite.GUIGroup;
 import lt.kvk.i17.chursin_jevgenij.composite.JButtonObject;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.AddButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.ApplyCloseButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.CancelButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.DisconnectButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.HostButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.JoinButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.JoinChatButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.RemoveButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.SendButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.SettingsButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.ShowCriteriaButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.ShowInfoButton;
+import lt.kvk.i17.chursin_jevgenij.gui.jbuttons.ShowUsersButton;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class JButtons {
-	GUIGroup gg;
+	static GUIGroup gg;
 	
-	public void initButtons() {
+	public static void initButtons() {
 		gg = ImportantObjects.getInstance().getGUIGroup();
 		
-		//WelcomeFrame
-		JButton host = new JButton("Host chat");
-		host.setBounds(100, 300, 100, 40);
-		addToGroup("HOST", host);
+		AddButton add = new AddButton();
+		addToGroup("ADDBUTTON", add);
 		
-		JButton join = new JButton("Join chat");
-		join.setBounds(300, 300, 100, 40);
-		addToGroup("JOIN", join);
+		ApplyCloseButton applyclose = new ApplyCloseButton();
+		addToGroup("APPLYCLOSEBUTTON", applyclose);
 		
-		JButton settings = new JButton("Settings");
-		settings.setBounds(400, 10, 100, 40);
-		addToGroup("SETTINGS", settings);
+		CancelButton cancel = new CancelButton();
+		addToGroup("CANCELBUTTON", cancel);
 		
-		//SettingsFrame
-		JButton applyclose = new JButton("Apply & Close");
-		applyclose.setBounds(150, 400, 100, 40);
-		addToGroup("APPLYCLOSE", applyclose);
+		DisconnectButton disconnect = new DisconnectButton();
+		addToGroup("DISCONNECTBUTTON", disconnect);
 		
-		//JoinFrame
-		JButton joinchat = new JButton("Join chat");
-		joinchat.setBounds(100, 200, 100, 40);
-		addToGroup("JOINCHAT", joinchat);
+		HostButton host = new HostButton();
+		addToGroup("HOSTBUTTON", host);
 		
-		JButton cancel = new JButton("Cancel");
-		cancel.setBounds(400, 200, 100, 40);
-		addToGroup("CANCEL", cancel);
+		JoinButton join = new JoinButton();
+		addToGroup("JOINBUTTON", join);
 		
-		//MainFrame
-		JButton disconnect = new JButton("Disconnect");
-		disconnect.setBounds(100, 100, 100, 40);
-		addToGroup("DISCONNECT", disconnect);
+		JoinChatButton joinchat = new JoinChatButton();
+		addToGroup("JOINCHATBUTTON", joinchat);
 		
-		JButton showusers = new JButton("Show users");
-		showusers.setBounds(200, 100, 100, 40);
-		addToGroup("SHOWUSERS", showusers);
+		RemoveButton remove = new RemoveButton();
+		addToGroup("REMOVEBUTTON", remove);
 		
-		JButton showinfo = new JButton("Show information");
-		showinfo.setBounds(300, 100, 100, 40);
-		addToGroup("SHOWINFO", showinfo);
+		SendButton send = new SendButton();
+		addToGroup("SENDBUTTON", send);
 		
-		JButton send = new JButton("Send");
-		send.setBounds(400, 100, 100, 40);
-		addToGroup("SEND", send);
+		SettingsButton settings = new SettingsButton();
+		addToGroup("SETTINGSBUTTON", settings);
+		
+		ShowCriteriaButton showcriteria = new ShowCriteriaButton();
+		addToGroup("SHOWCRITERIABUTTON", showcriteria);
+		
+		ShowInfoButton showinfo = new ShowInfoButton();
+		addToGroup("SHOWINFOBUTTON", showinfo);
+		
+		ShowUsersButton showusers = new ShowUsersButton();
+		addToGroup("SHOWUSERSBUTTON", showusers);
 	}
 	
-	public void addToGroup(String name, JButton button) {
+	public static void addToGroup(String name, JButton button) {
 		gg.add(new JButtonObject(name, button));
 	}
 }

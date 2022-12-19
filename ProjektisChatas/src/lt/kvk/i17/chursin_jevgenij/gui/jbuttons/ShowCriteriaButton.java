@@ -8,19 +8,17 @@ import javax.swing.JButton;
 import lt.kvk.i17.chursin_jevgenij.composite.GUIComponent;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
-public class SettingsButton extends JButton {
-	public SettingsButton() {
-		this.setBounds(250, 20, 100, 70);
-		this.setText("Settings");
+public class ShowCriteriaButton extends JButton {
+	public ShowCriteriaButton() {
+		this.setBounds(30, 280, 140, 70);
+		this.setText("Show Criterias");
 		this.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
-				temp.getFrame().setVisible(false);
+				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup();
 				
-				GUIComponent settings = ImportantObjects.getInstance().getGUIGroup().get("SETTINGSFRAME");
-				settings.getFrame().setVisible(true);
+				temp.get("CRITERIAFRAME").getFrame().showFrame();
 			}
 			
 		});

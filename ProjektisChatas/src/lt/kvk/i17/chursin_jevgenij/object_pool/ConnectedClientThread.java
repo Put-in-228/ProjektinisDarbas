@@ -102,5 +102,9 @@ public class ConnectedClientThread extends Thread {
 		send("/unmute");
 	}
 	
+	public String getIP() {
+		return conn.getInetAddress().toString().substring(1);
+	}
+	
 	public ServerObserver getObserverObject() {return observerObject;}
 }

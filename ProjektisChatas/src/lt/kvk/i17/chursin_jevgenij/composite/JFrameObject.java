@@ -1,17 +1,18 @@
 package lt.kvk.i17.chursin_jevgenij.composite;
 
-import javax.swing.JFrame;
+
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.Frame;
 
 public class JFrameObject extends GUIComponent{
 	private final String name;
-	private final JFrame frame;
+	private final Frame frame;
 	
-	public JFrameObject(String name, JFrame frame) {
+	public JFrameObject(String name, Frame frame) {
 		this.name = name;
 		this.frame = frame;
 	}
 	
-	public JFrame getFrame() {
+	public Frame getFrame() {
 		return frame;
 	}
 	

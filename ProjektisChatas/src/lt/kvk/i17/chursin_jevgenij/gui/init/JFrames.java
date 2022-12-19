@@ -1,44 +1,48 @@
 package lt.kvk.i17.chursin_jevgenij.gui.init;
 
-import javax.swing.JFrame;
+
 
 import lt.kvk.i17.chursin_jevgenij.composite.GUIGroup;
 import lt.kvk.i17.chursin_jevgenij.composite.JFrameObject;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.CriteriaFrame;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.Frame;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.Information;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.JoinChat;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.MainFrame;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.MainMenu;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.Settings;
+import lt.kvk.i17.chursin_jevgenij.gui.jframes.Users;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class JFrames {
-	GUIGroup gg;
+	static GUIGroup gg;
 	
-	public void initFrames() {
+	public static void initFrames() {
 		gg = ImportantObjects.getInstance().getGUIGroup();
 		
-		JFrame startframe = new JFrame("Main menu");
-		startframe.setSize(400, 400);
-		startframe.setVisible(false);
-		addToGroup("STARTFRAME", startframe);
+		CriteriaFrame criteria = new CriteriaFrame();
+		addToGroup("CRITERIAFRAME", criteria);
 		
-		JFrame settings = new JFrame("Settings");
-		settings.setSize(300, 300);
-		settings.setVisible(false);
+		Information information = new Information();
+		addToGroup("INFORMATIONFRAME", information);
+		
+		JoinChat joinchat = new JoinChat();
+		addToGroup("JOINCHATFRAME", joinchat);
+		
+		MainFrame mainframe = new MainFrame();
+		addToGroup("MAINFRAME", mainframe);
+		
+		MainMenu mainmenu = new MainMenu();
+		addToGroup("MAINMENUFRAME", mainmenu);
+		
+		Settings settings = new Settings();
 		addToGroup("SETTINGSFRAME", settings);
 		
-		JFrame join = new JFrame("Join Chat");
-		join.setSize(400, 400);
-		join.setVisible(false);
-		addToGroup("JOINFRAME", join);
-		
-		JFrame main = new JFrame("Chat Window");
-		main.setSize(600, 600);
-		main.setVisible(false);
-		addToGroup("MAINFRAME", join);
-		
-		JFrame infoframe = new JFrame("Chat room information");
-		infoframe.setSize(400, 400);
-		infoframe.setVisible(false);
-		addToGroup("INFOFRAME", infoframe);
+		Users users = new Users();
+		addToGroup("USERSFRAME", users);
 	}
 	
-	void addToGroup(String name, JFrame frame) {
+	static void addToGroup(String name, Frame frame) {
 		gg.add(new JFrameObject(name, frame));
 	}
 }

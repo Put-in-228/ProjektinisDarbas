@@ -45,4 +45,8 @@ public class ConnectedClients {
 		
 		return null;
 	}
+	
+	public static List<ConnectedClientThread> getClients() {
+		return used;
+	}
 }

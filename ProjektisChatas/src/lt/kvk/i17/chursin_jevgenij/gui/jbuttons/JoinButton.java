@@ -9,17 +9,17 @@ import lt.kvk.i17.chursin_jevgenij.composite.GUIComponent;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class JoinButton extends JButton {
-	JoinButton() {
+	public JoinButton() {
 		this.setBounds(230, 250, 140, 70);
 		this.setText("Join Chat");
 		this.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENU");
+				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
 				temp.getFrame().setVisible(false);
 				
-				GUIComponent joinframe = ImportantObjects.getInstance().getGUIGroup().get("JOINFRAME");
+				GUIComponent joinframe = ImportantObjects.getInstance().getGUIGroup().get("JOINCHATFRAME");
 				joinframe.getFrame().setVisible(true);
 			}
 			
