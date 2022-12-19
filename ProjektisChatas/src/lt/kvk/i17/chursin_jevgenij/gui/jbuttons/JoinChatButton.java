@@ -40,6 +40,8 @@ public class JoinChatButton extends JButton {
 				temp.get("JOINCHATFRAME").getFrame().setVisible(false);
 				
 				facade.start();
+				
+				temp.get("MAINFRAME").getFrame().setVisible(true);
 			}
 			
 		});

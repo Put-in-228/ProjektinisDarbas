@@ -58,8 +58,8 @@ public class ConnectedClientThread extends Thread {
 		this.conn = conn;
 		
 		try {
-			in = (DataInputStream) conn.getInputStream();
-			out = (DataOutputStream) conn.getOutputStream();
+			in = new DataInputStream(conn.getInputStream());
+			out = new DataOutputStream(conn.getOutputStream());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
