@@ -18,7 +18,7 @@ public class ShowCriteriaButton extends JButton {
 			public void actionPerformed(ActionEvent e) {
 				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup();
 				
-				temp.get("CRITERIAFRAME").getFrame().showFrame();
+				temp.get("CRITERIAFRAME").getFrame().setVisible(true);
 			}
 			
 		});

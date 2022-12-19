@@ -15,7 +15,7 @@ public class UsersTable extends Table {
 	
 	public UsersTable() {
 		scPane = new JScrollPane(this);
-		scPane.setBounds(20,20,360,260);
+		scPane.setBounds(20,20,300,260);
 	}
 	
 	public void refresh() {

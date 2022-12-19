@@ -6,8 +6,7 @@ import java.net.ServerSocket;
 public class StartServer {
 	public static ServerSocket connStart(int port, int amount) {
 		ServerSocket conn = null;
-		int check = 0;
-		while (check < 3) {
+		while (true) {
 			System.out.println("Trying to start the server!");
 			
 			try {
@@ -17,10 +16,9 @@ public class StartServer {
 			}
 			
 			if (conn != null) {
+				System.out.println("STARTED THE SERVER!");
 				return conn;
 			}
 		}
-		
-		return null;
 	}
 }

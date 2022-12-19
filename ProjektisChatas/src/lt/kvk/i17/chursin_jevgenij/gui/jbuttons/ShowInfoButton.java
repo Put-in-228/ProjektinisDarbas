@@ -16,7 +16,7 @@ public class ShowInfoButton extends JButton {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("INFOFRAME");
+				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("INFORMATIONFRAME");
 				temp.getFrame().setVisible(true);
 			}
 			

@@ -20,6 +20,9 @@ public class HostButton extends JButton {
 			public void actionPerformed(ActionEvent e) {
 				StartServer ss = new StartServer();
 				StartServerFacade facade = new StartServerFacade(ss);
+				
+				ImportantObjects.getInstance().setServerFacade(facade);
+				
 				facade.start();
 				
 				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");

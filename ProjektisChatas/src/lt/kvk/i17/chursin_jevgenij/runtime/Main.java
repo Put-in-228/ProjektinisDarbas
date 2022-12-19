@@ -1,5 +1,7 @@
 package lt.kvk.i17.chursin_jevgenij.runtime;
 
+import com.dosse.upnp.UPnP;
+
 import lt.kvk.i17.chursin_jevgenij.composite.GUIGroup;
 import lt.kvk.i17.chursin_jevgenij.gui.init.FrameSetup;
 import lt.kvk.i17.chursin_jevgenij.gui.init.JButtons;
@@ -25,5 +27,7 @@ public class Main {
 		JTextFields.initTextFields();
 		
 		FrameSetup.onStart();
+		
+		UPnP.closePortTCP(7898);
 	}
 }

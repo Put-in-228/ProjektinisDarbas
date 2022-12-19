@@ -10,16 +10,16 @@ import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
 public class CancelButton extends JButton {
 	public CancelButton() {
-		this.setBounds(130, 30, 230, 70);
+		this.setBounds(230, 230, 140, 70);
 		this.setText("Cancel");
 		this.addActionListener(new ActionListener() {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				GUIComponent joinframe = ImportantObjects.getInstance().getGUIGroup().get("JOINFRAME");
+				GUIComponent joinframe = ImportantObjects.getInstance().getGUIGroup().get("JOINCHATFRAME");
 				joinframe.getFrame().setVisible(false);
 				
-				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENU");
+				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
 				temp.getFrame().setVisible(true);
 			}
 			

@@ -13,7 +13,7 @@ public class StartClientFacade {
 
 	public void start() {
 		instance.setupValues(ip, port);
-		//Init MainFrame
+		instance.getUI();
 		instance.startListening();
 	}
 	

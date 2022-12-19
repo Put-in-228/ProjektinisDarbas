@@ -20,7 +20,7 @@ public class ClientRead {
 			if (msg.substring(0, 1).equals(prefix)) {
 				//Disconnect
 			} else {
-				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTFIELD");
+				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
 				temp.getTextArea().append(msg);
 			}
 		}

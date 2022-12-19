@@ -14,7 +14,7 @@ public class CriteriaTable extends Table {
 	
 	public CriteriaTable() {
 		scPane = new JScrollPane(this);
-		scPane.setBounds(20,20,360,260);
+		scPane.setBounds(20,20,300,260);
 		this.getSelectionModel().setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
 	}
 	

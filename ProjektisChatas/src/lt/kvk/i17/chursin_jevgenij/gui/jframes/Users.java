@@ -15,6 +15,7 @@ public class Users extends Frame {
 	public void showFrame() {
 		this.setVisible(true);
 		GUIComponent temp = ImportantObjects.getInstance().getGUIGroup();
-		temp.get("USERTABLE").getTable().refresh();
+		temp.get("USERSTABLE").getTable().refresh();
+		this.repaint();
 	}
 }

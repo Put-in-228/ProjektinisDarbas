@@ -6,8 +6,11 @@ import com.dosse.upnp.UPnP;
 
 import lt.kvk.i17.chursin_jevgenij.builder.SocketBuilder;
 import lt.kvk.i17.chursin_jevgenij.builder.Soketas;
+import lt.kvk.i17.chursin_jevgenij.filter.CriteriaGroup;
+import lt.kvk.i17.chursin_jevgenij.gui.init.FrameSetup;
 import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClients;
 import lt.kvk.i17.chursin_jevgenij.observer.ServerSubject;
+import lt.kvk.i17.chursin_jevgenij.serverthread.StateThread;
 import lt.kvk.i17.chursin_jevgenij.singleton.Config;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 import lt.kvk.i17.chursin_jevgenij.state.RoomSpace;
@@ -33,14 +36,25 @@ public class StartServer {
 	
 	void initObjects() {
 		objects = ImportantObjects.getInstance();
+		System.out.println("SETUPOBJECTSVAR");
+		
 		
 		objects.setObjectPool(new ConnectedClients());
+		System.out.println("SETUPOBJECTPOOl");
 		objects.setObserverObject(new ServerSubject());
+		System.out.println("SETUPOBSERVER");
 		objects.setStateObject(new RoomSpace(server));
+		System.out.println("SETUPSTATE");
+		objects.setCriteriaGroup(new CriteriaGroup());
+		
+		FrameSetup.onHostServer();
+		System.out.println("SETUPUI");
 	}
 	
 	void startListener() {
-		objects.getStateObject().acceptConnections();
+		StateThread temp = new StateThread();
+		temp.start();
+		System.out.println("STARTLISTENING");
 	}
 	
 	void closePort() {

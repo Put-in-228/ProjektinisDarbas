@@ -19,7 +19,7 @@ public class SendButton extends JButton {
 
 			@Override
 			public void actionPerformed(ActionEvent e) {
-				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("INPUTFIELD");
+				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("INPUTCHATTEXT");
 				
 				if (ImportantObjects.getInstance().getServerFacade() == null) {
 					CommunicationMethodsOut.sendString(ImportantObjects.getInstance().getSoketas().getOutput(), temp.getTextArea().getText());
@@ -27,9 +27,11 @@ public class SendButton extends JButton {
 					String msg = String.join(" ", ImportantObjects.getInstance().getCriteriaGroup().runThroughFilter(temp.getTextArea().getText().split(" ")));
 					msg = ConstructMsg.constructMessage(msg, Config.getInstance().getUserName());
 					ImportantObjects.getInstance().getObserverObject().setMessage(msg);
-					GUIComponent output = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTFIELD");
-					output.getTextArea().append(msg);
+					GUIComponent output = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
+					output.getTextArea().append(msg + "\n");
 				}
+				
+				temp.getTextArea().setText("");
 			}
 			
 		});

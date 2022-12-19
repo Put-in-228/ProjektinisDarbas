@@ -3,6 +3,7 @@ package lt.kvk.i17.chursin_jevgenij.facade;
 import lt.kvk.i17.chursin_jevgenij.builder.SocketBuilder;
 import lt.kvk.i17.chursin_jevgenij.builder.Soketas;
 import lt.kvk.i17.chursin_jevgenij.clientread.ClientRead;
+import lt.kvk.i17.chursin_jevgenij.gui.init.FrameSetup;
 import lt.kvk.i17.chursin_jevgenij.singleton.Config;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
@@ -22,6 +23,10 @@ public class StartClient {
 		client = builder.build();
 		
 		objects.setSoketas(client);
+	}
+	
+	void getUI() {
+		FrameSetup.onJoinServer();
 	}
 	
 	void startListening() {
