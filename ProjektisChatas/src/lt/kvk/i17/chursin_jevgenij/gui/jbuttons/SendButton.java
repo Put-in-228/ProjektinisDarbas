@@ -21,14 +21,20 @@ public class SendButton extends JButton {
 			public void actionPerformed(ActionEvent e) {
 				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("INPUTCHATTEXT");
 				
+				String command = "/";
+				
 				if (ImportantObjects.getInstance().getServerFacade() == null) {
 					CommunicationMethodsOut.sendString(ImportantObjects.getInstance().getSoketas().getOutput(), temp.getTextArea().getText());
 				} else {
-					String msg = String.join(" ", ImportantObjects.getInstance().getCriteriaGroup().runThroughFilter(temp.getTextArea().getText().split(" ")));
-					msg = ConstructMsg.constructMessage(msg, Config.getInstance().getUserName());
-					ImportantObjects.getInstance().getObserverObject().setMessage(msg);
-					GUIComponent output = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
-					output.getTextArea().append(msg + "\n");
+					if (temp.getTextArea().getText().substring(0, 1).equals(command)) {
+						 ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT").getTextArea().append(ImportantObjects.getInstance().getCommands().activateCommand(temp.getTextArea().getText()));
+					} else {
+						String msg = String.join(" ", ImportantObjects.getInstance().getCriteriaGroup().runThroughFilter(temp.getTextArea().getText().split(" ")));
+						msg = ConstructMsg.constructMessage(msg, Config.getInstance().getUserName());
+						ImportantObjects.getInstance().getObserverObject().setMessage(msg);
+						GUIComponent output = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
+						output.getTextArea().append(msg + "\n");
+					}
 				}
 				
 				temp.getTextArea().setText("");

@@ -1,6 +1,7 @@
 package lt.kvk.i17.chursin_jevgenij.singleton;
 
 import lt.kvk.i17.chursin_jevgenij.builder.Soketas;
+import lt.kvk.i17.chursin_jevgenij.command.CommandGroup;
 import lt.kvk.i17.chursin_jevgenij.composite.GUIGroup;
 import lt.kvk.i17.chursin_jevgenij.facade.StartClientFacade;
 import lt.kvk.i17.chursin_jevgenij.facade.StartServerFacade;
@@ -21,6 +22,7 @@ public class ImportantObjects {
 	private Soketas client = null;
 	private StartClientFacade facade1 = null;
 	private StartServerFacade facade2 = null;
+	private CommandGroup commands = null;
 	
 	
 	public static ImportantObjects getInstance() {
@@ -63,6 +65,10 @@ public class ImportantObjects {
 		this.facade2 = facade2;
 	}
 	
+	public void setCommandGroup(CommandGroup commands) {
+		this.commands = commands;
+	}
+	
 	public ConnectedClients getObjectPool() {
 		return this.cc;
 	}
@@ -93,5 +99,9 @@ public class ImportantObjects {
 	
 	public StartServerFacade getServerFacade() {
 		return this.facade2;
+	}
+	
+	public CommandGroup getCommands() {
+		return this.commands;
 	}
 }

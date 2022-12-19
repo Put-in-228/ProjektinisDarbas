@@ -7,6 +7,10 @@ import com.dosse.upnp.UPnP;
 import lt.kvk.i17.chursin_jevgenij.addthreads.StateThread;
 import lt.kvk.i17.chursin_jevgenij.builder.SocketBuilder;
 import lt.kvk.i17.chursin_jevgenij.builder.Soketas;
+import lt.kvk.i17.chursin_jevgenij.command.CommandGroup;
+import lt.kvk.i17.chursin_jevgenij.command.DisconnectClient;
+import lt.kvk.i17.chursin_jevgenij.command.MuteClient;
+import lt.kvk.i17.chursin_jevgenij.command.UnmuteClient;
 import lt.kvk.i17.chursin_jevgenij.filter.CriteriaGroup;
 import lt.kvk.i17.chursin_jevgenij.gui.init.FrameSetup;
 import lt.kvk.i17.chursin_jevgenij.object_pool.ConnectedClients;
@@ -46,6 +50,14 @@ public class StartServer {
 		objects.setStateObject(new RoomSpace(server));
 		System.out.println("SETUPSTATE");
 		objects.setCriteriaGroup(new CriteriaGroup());
+		
+		objects.setCommandGroup(new CommandGroup());
+		
+		CommandGroup temp = objects.getCommands();
+		
+		temp.addCommand("/kick", new DisconnectClient());
+		temp.addCommand("/mute", new MuteClient());
+		temp.addCommand("/unmute", new UnmuteClient());
 		
 		FrameSetup.onHostServer();
 		System.out.println("SETUPUI");
