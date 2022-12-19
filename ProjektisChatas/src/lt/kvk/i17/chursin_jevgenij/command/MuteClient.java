@@ -9,12 +9,12 @@ public class MuteClient implements Command {
 	public String execute(String userName) {
 		ConnectedClientThread temp = ImportantObjects.getInstance().getObjectPool().findByUsername(userName);
 		if (temp == null) {
-			return "noclient";
+			return "No such client found!";
 		}
 		
 		temp.mute();
 		
-		return "s";
+		return "Successfully muted client!";
 	}
 
 }

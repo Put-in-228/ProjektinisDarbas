@@ -16,7 +16,7 @@ public class CommandGroup {
 	
 	public String activateCommand(String command) {
 		if (commands.get(command.split(" ")[0]) == null) {
-			return "nocommand";
+			return "No such command found!";
 		} else {
 			return commands.get(command.split(" ")[0]).execute(command.split(" ")[1]);
 		}

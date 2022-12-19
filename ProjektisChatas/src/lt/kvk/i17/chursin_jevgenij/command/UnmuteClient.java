@@ -9,12 +9,12 @@ public class UnmuteClient implements Command {
 	public String execute(String userName) {
 		ConnectedClientThread temp = ImportantObjects.getInstance().getObjectPool().findByUsername(userName);
 		if (temp == null) {
-			return "noclient";
+			return "No such client found!";
 		}
 		
 		temp.unmute();
 		
-		return "s";
+		return "Successfully unmuted client!";
 	}
 
 }

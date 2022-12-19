@@ -27,13 +27,11 @@ public class SendButton extends JButton {
 					CommunicationMethodsOut.sendString(ImportantObjects.getInstance().getSoketas().getOutput(), temp.getTextArea().getText());
 				} else {
 					if (temp.getTextArea().getText().substring(0, 1).equals(command)) {
-						 ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT").getTextArea().append(ImportantObjects.getInstance().getCommands().activateCommand(temp.getTextArea().getText()));
+						 ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT").getTextArea().append(ImportantObjects.getInstance().getCommands().activateCommand(temp.getTextArea().getText()) + "\n");
 					} else {
 						String msg = String.join(" ", ImportantObjects.getInstance().getCriteriaGroup().runThroughFilter(temp.getTextArea().getText().split(" ")));
 						msg = ConstructMsg.constructMessage(msg, Config.getInstance().getUserName());
 						ImportantObjects.getInstance().getObserverObject().setMessage(msg);
-						GUIComponent output = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
-						output.getTextArea().append(msg + "\n");
 					}
 				}
 				

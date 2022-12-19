@@ -13,11 +13,20 @@ public class ClientRead {
 		boolean check = true;
 		
 		String prefix = "/";
-		String mute = "muted";
+		String muted = "muted";
+		String unmute = "unmute";
 		String username = "username";
+		String mute = "mute";
+		String kick = "kick";
 		
 		while (check == true) {
-			int amount = CommunicationMethodsIn.readInteger(in);
+			int amount = -1;
+			
+			amount = CommunicationMethodsIn.readInteger(in);
+			
+			if (amount == -1) {
+				break;
+			}
 			
 			String msg = CommunicationMethodsIn.readMsg(in, amount);
 			
@@ -32,10 +41,34 @@ public class ClientRead {
 					GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
 					temp.getTextArea().append("You have been muted" + "\n");
 				}
+				
+				if (msg.substring(1).equals(muted)) {
+					GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
+					temp.getTextArea().append("You are muted" + "\n");
+				}
+				
+				if (msg.substring(1).equals(unmute)) {
+					GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
+					temp.getTextArea().append("You have been unmuted" + "\n");
+				}
+				
+				if (msg.substring(1).equals(kick)) {
+					GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINFRAME");
+					temp.getFrame().setVisible(false);
+					
+					GUIComponent temp2 = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
+					temp2.getFrame().setVisible(true);
+				}
 			} else {
 				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
 				temp.getTextArea().append(msg + "\n");
 			}
 		}
+		
+		GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINFRAME");
+		temp.getFrame().setVisible(false);
+		
+		GUIComponent temp2 = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
+		temp2.getFrame().setVisible(true);
 	}
 }

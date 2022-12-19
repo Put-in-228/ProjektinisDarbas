@@ -9,12 +9,12 @@ public class DisconnectClient implements Command {
 	public String execute(String userName) {
 		ConnectedClientThread temp = ImportantObjects.getInstance().getObjectPool().findByUsername(userName);
 		if (temp == null) {
-			return "noclient";
+			return "No such client found!";
 		}
 		
 		temp.forceDisconnect();
 		
-		return "s";
+		return "Successfully kicked client!";
 	}
 
 }
