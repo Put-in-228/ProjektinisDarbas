@@ -32,7 +32,9 @@ public class ConnectedClientThread extends Thread {
 				break;
 			}
 			if (muted == false) {
-				//forward it somewhere
+				msg = String.join(" ", ImportantObjects.getInstance().getCriteriaGroup().runThroughFilter(msg.split(" ")));
+				msg = userName + ": " + msg;
+				ImportantObjects.getInstance().getObserverObject().setMessage(msg);
 			} else {
 				send("/muted");
 			}
