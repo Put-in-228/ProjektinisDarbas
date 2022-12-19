@@ -1,5 +1,6 @@
 package lt.kvk.i17.chursin_jevgenij.facade;
 
+import lt.kvk.i17.chursin_jevgenij.addthreads.ClientReadThread;
 import lt.kvk.i17.chursin_jevgenij.builder.SocketBuilder;
 import lt.kvk.i17.chursin_jevgenij.builder.Soketas;
 import lt.kvk.i17.chursin_jevgenij.clientread.ClientRead;
@@ -30,6 +31,7 @@ public class StartClient {
 	}
 	
 	void startListening() {
-		ClientRead.read(client.getInput());
+		ClientReadThread temp = new ClientReadThread(client);
+		temp.start();
 	}
 }

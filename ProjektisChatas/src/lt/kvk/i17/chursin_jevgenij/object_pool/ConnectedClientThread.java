@@ -28,6 +28,9 @@ public class ConnectedClientThread extends Thread {
 	public void run() {
 		while (status == true) {
 			String msg = read();
+			if (msg == null) {
+				break;
+			}
 			if (muted == false) {
 				//forward it somewhere
 			} else {
@@ -47,6 +50,9 @@ public class ConnectedClientThread extends Thread {
 	private String read() {
 		if (in != null && out != null) {
 			int length = CommunicationMethodsIn.readInteger(in);
+			if (length == -1) {
+				return null;
+			}
 			String msg = CommunicationMethodsIn.readMsg(in, length);
 			return msg;
 		}

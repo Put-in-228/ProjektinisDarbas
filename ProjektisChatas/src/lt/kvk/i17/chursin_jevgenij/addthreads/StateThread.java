@@ -1,4 +1,4 @@
-package lt.kvk.i17.chursin_jevgenij.serverthread;
+package lt.kvk.i17.chursin_jevgenij.addthreads;
 
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
