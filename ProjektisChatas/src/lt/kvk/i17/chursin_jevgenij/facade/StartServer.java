@@ -19,12 +19,12 @@ public class StartServer {
 	ImportantObjects objects;
 	
 	void openPort() {
+		params = Config.getInstance();
+		
 		UPnP.openPortTCP(params.getPort());
 	}
 	
 	void setupValues() {
-		params = Config.getInstance();
-		
 		SocketBuilder builder = new SocketBuilder(params.getUserName());
 		builder.addAmount(params.getAmount());
 		builder.addPort(params.getPort());
