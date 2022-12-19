@@ -21,8 +21,8 @@ public class Soketas {
 		this.cConn = cConn;
 		
 		try {
-			this.in = (DataInputStream) cConn.getInputStream();
-			this.out = (DataOutputStream) cConn.getOutputStream();
+			this.in = new DataInputStream(cConn.getInputStream());
+			this.out = new DataOutputStream(cConn.getOutputStream());
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
