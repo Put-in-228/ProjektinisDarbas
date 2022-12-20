@@ -30,6 +30,7 @@ public class ConnectedClientThread {
 		while (status == true) {
 			String msg = read();
 			if (msg == null) {
+				System.out.println("Message is null");
 				break;
 			}
 			if (muted == false) {
@@ -40,7 +41,7 @@ public class ConnectedClientThread {
 				send("/muted");
 			}
 		}
-		
+		System.out.println("Returning object to objectPool");
 		ImportantObjects.getInstance().getObjectPool().returnThread(this);
 	}
 	
@@ -66,6 +67,8 @@ public class ConnectedClientThread {
 	public void setupThread(Socket conn) {
 		this.conn = conn;
 		
+		System.out.println("Setting up thread");
+		
 		try {
 			in = new DataInputStream(conn.getInputStream());
 			out = new DataOutputStream(conn.getOutputStream());
@@ -74,8 +77,10 @@ public class ConnectedClientThread {
 		}
 		
 		if (in != null && out != null) {
+			System.out.println("Asking for username");
 			setUserName();
 			ConnectedClientOneTime temp = new ConnectedClientOneTime(this);
+			System.out.println("Starting thread instance");
 			temp.start();
 		} else {
 			ConnectedClients.returnThread(this);
@@ -86,6 +91,7 @@ public class ConnectedClientThread {
 		conn = null;
 		in = null;
 		out = null;
+		userName = null;
 	}
 	
 	public String getUserName() {

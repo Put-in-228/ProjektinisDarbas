@@ -15,7 +15,7 @@ public class ImportantObjects {
 	private static ImportantObjects instance = null;
 	
 	private ConnectedClients cc;
-	private RoomSpace rs;
+	private RoomSpace rs = null;
 	private ServerSubject ss = null;
 	private GUIGroup gg;
 	private CriteriaGroup cg;
