@@ -57,11 +57,7 @@ public class ClientRead {
 				}
 				
 				if (msg.substring(1).equals(kick)) {
-					GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINFRAME");
-					temp.getFrame().setVisible(false);
-					
-					GUIComponent temp2 = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
-					temp2.getFrame().setVisible(true);
+					ImportantObjects.getInstance().getClientFacade().stop();
 				}
 			} else {
 				GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("OUTPUTTEXT");
