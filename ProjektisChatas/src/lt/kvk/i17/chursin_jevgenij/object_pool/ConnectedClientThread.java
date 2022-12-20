@@ -5,12 +5,13 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.net.Socket;
 
+import lt.kvk.i17.chursin_jevgenij.addthreads.ConnectedClientOneTime;
 import lt.kvk.i17.chursin_jevgenij.communication.CommunicationMethodsIn;
 import lt.kvk.i17.chursin_jevgenij.communication.CommunicationMethodsOut;
 import lt.kvk.i17.chursin_jevgenij.observer.ServerObserver;
 import lt.kvk.i17.chursin_jevgenij.singleton.ImportantObjects;
 
-public class ConnectedClientThread extends Thread {
+public class ConnectedClientThread {
 	private Socket conn = null;
 	private DataInputStream in = null;
 	private DataOutputStream out = null;
@@ -74,7 +75,8 @@ public class ConnectedClientThread extends Thread {
 		
 		if (in != null && out != null) {
 			setUserName();
-			this.start();
+			ConnectedClientOneTime temp = new ConnectedClientOneTime(this);
+			temp.start();
 		} else {
 			ConnectedClients.returnThread(this);
 		}

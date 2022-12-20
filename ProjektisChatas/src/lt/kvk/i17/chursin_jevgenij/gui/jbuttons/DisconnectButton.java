@@ -24,9 +24,6 @@ public class DisconnectButton extends JButton {
 				} else {
 					ImportantObjects.getInstance().getServerFacade().stop();
 				}
-				
-				GUIComponent menu = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
-				menu.getFrame().setVisible(true);
 			}
 			
 		});

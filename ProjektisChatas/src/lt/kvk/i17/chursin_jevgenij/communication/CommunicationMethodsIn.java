@@ -33,6 +33,7 @@ public class CommunicationMethodsIn {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
+				return null;
 			}
 		}
 		

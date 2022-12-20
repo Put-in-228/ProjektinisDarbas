@@ -35,8 +35,13 @@ public class FrameSetup {
 		
 		Frame mainframe = group.get("MAINFRAME").getFrame();
 		
+		mainframe.getContentPane().removeAll();
+		
 		JPanel buttons = group.get("BUTTONSPANEL").getPane();
 		JPanel textfields = group.get("TEXTFIELDSPANEL").getPane();
+		
+		buttons.removeAll();
+		textfields.removeAll();
 		
 		textfields.add(group.get("INPUTCHATTEXT").getTextArea());
 		textfields.add(group.get("OUTPUTTEXT").getTextArea());
@@ -45,6 +50,10 @@ public class FrameSetup {
 		
 		mainframe.add(textfields);
 		mainframe.add(buttons);
+		
+		mainframe.validate();
+		
+		mainframe.repaint();
 	}
 	
 	public static void onHostServer() {
@@ -52,8 +61,13 @@ public class FrameSetup {
 		
 		Frame mainframe = group.get("MAINFRAME").getFrame();
 		
+		mainframe.getContentPane().removeAll();
+		
 		JPanel buttons = group.get("BUTTONSPANEL").getPane();
 		JPanel textfields = group.get("TEXTFIELDSPANEL").getPane();
+		
+		buttons.removeAll();
+		textfields.removeAll();
 		
 		textfields.add(group.get("INPUTCHATTEXT").getTextArea());
 		textfields.add(group.get("OUTPUTTEXT").getTextArea());
@@ -67,11 +81,49 @@ public class FrameSetup {
 		mainframe.add(buttons);
 		
 		Frame criteria = group.get("CRITERIAFRAME").getFrame();
+		
+		criteria.getContentPane().removeAll();
+		
 		criteria.add(group.get("ADDBUTTON").getButton());
 		criteria.add(group.get("REMOVEBUTTON").getButton());
 		criteria.add(group.get("CRITERIATABLE").getTable().getScrollPane());
 		
 		Frame users = group.get("USERSFRAME").getFrame();
+		
+		users.getContentPane().removeAll();
+		
 		users.add(group.get("USERSTABLE").getTable().getScrollPane());
+		
+		mainframe.validate();
+		criteria.validate();
+		users.validate();
+		
+		mainframe.repaint();
+		criteria.repaint();
+		users.repaint();
+	}
+	
+	public static void onLeaveServer() {
+		GUIComponent group = ImportantObjects.getInstance().getGUIGroup();
+		
+		Frame mainframe = group.get("MAINFRAME").getFrame();
+		
+		mainframe.setVisible(false);
+		group.get("MAINMENUFRAME").getFrame().setVisible(true);
+	}
+	
+	public static void onStopHost() {
+		GUIComponent group = ImportantObjects.getInstance().getGUIGroup();
+		
+		Frame criteria = group.get("CRITERIAFRAME").getFrame();
+		
+		Frame users = group.get("USERSFRAME").getFrame();
+		
+		Frame mainframe = group.get("MAINFRAME").getFrame();
+		
+		users.setVisible(false);
+		criteria.setVisible(false);
+		mainframe.setVisible(false);
+		group.get("MAINMENUFRAME").getFrame().setVisible(true);
 	}
 }

@@ -59,8 +59,11 @@ public class StartServer {
 		temp.addCommand("/mute", new MuteClient());
 		temp.addCommand("/unmute", new UnmuteClient());
 		
-		FrameSetup.onHostServer();
 		System.out.println("SETUPUI");
+	}
+	
+	void setupUI() {
+		FrameSetup.onHostServer();
 	}
 	
 	void startListener() {
@@ -80,5 +83,18 @@ public class StartServer {
 			e.printStackTrace();
 		}
 		server = null;
+	}
+	
+	void emptyUI() {
+		FrameSetup.onStopHost();
+	}
+	
+	void nullObjects() {
+		ImportantObjects.getInstance().setServerFacade(null);
+		ImportantObjects.getInstance().setCommandGroup(null);
+		ImportantObjects.getInstance().setCriteriaGroup(null);
+		ImportantObjects.getInstance().setObjectPool(null);
+		ImportantObjects.getInstance().setObserverObject(null);
+		ImportantObjects.getInstance().setStateObject(null);
 	}
 }

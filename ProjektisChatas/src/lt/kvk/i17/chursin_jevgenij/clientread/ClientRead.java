@@ -30,6 +30,10 @@ public class ClientRead {
 			
 			String msg = CommunicationMethodsIn.readMsg(in, amount);
 			
+			if (msg == null) {
+				break;
+			}
+			
 			if (msg.substring(0, 1).equals(prefix)) {
 				System.out.println("MESSAGEWITHPREFIX");
 				System.out.println(msg);
@@ -65,10 +69,10 @@ public class ClientRead {
 			}
 		}
 		
-		GUIComponent temp = ImportantObjects.getInstance().getGUIGroup().get("MAINFRAME");
-		temp.getFrame().setVisible(false);
-		
-		GUIComponent temp2 = ImportantObjects.getInstance().getGUIGroup().get("MAINMENUFRAME");
-		temp2.getFrame().setVisible(true);
+		if (ImportantObjects.getInstance().getClientFacade() == null) {
+			
+		} else {
+			ImportantObjects.getInstance().getClientFacade().stop();
+		}
 	}
 }

@@ -18,6 +18,8 @@ public class StartClientFacade {
 	}
 	
 	public void stop() {
-		
+		instance.stopListening();
+		instance.emptyUI();
+		instance.nullValues();
 	}
 }

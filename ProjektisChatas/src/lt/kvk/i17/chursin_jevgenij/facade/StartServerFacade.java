@@ -11,12 +11,14 @@ public class StartServerFacade {
 		ss.openPort();
 		ss.setupValues();
 		ss.initObjects();
-		//init MainFrame
+		ss.setupUI();
 		ss.startListener();
 	}
 	
 	public void stop() {
 		ss.closePort();
+		ss.nullObjects();
 		ss.nullServer();
+		ss.emptyUI();
 	}
 }
