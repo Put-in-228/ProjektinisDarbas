@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_NAAfcIEwEe2fWoq9BkNCVw" name="ProjektisChatas">
+    <eAnnotations xmi:id="_NCLpsIEwEe2fWoq9BkNCVw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_NCLpsYEwEe2fWoq9BkNCVw" source="codegen">
+        <details xmi:id="_NCLpsoEwEe2fWoq9BkNCVw" key="codegenDirectory" value="/ProjektisChatas/src"/>
+        <details xmi:id="_NIXxQIEwEe2fWoq9BkNCVw" key="AssociatedSourceCode" value="/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/state/RoomFull.java;334536627/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/state/RoomNotFull.java;653111889/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/state/RoomSpace.java;4045447447/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/state/RoomSpaceState.java;821229990/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_NHXrsIEwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXrsYEwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXrsoEwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXrs4EwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXrtIEwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXrtYEwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXrtoEwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXrt4EwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_NHXruIEwEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NHQ-AIEwEe2fWoq9BkNCVw" name="lt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NHQ-AYEwEe2fWoq9BkNCVw" name="kvk">
+        <packagedElement xmi:type="uml:Package" xmi:id="_NHQ-AoEwEe2fWoq9BkNCVw" name="i17">
+          <packagedElement xmi:type="uml:Package" xmi:id="_NHQ-A4EwEe2fWoq9BkNCVw" name="chursin_jevgenij">
+            <packagedElement xmi:type="uml:Package" xmi:id="_NHRlEIEwEe2fWoq9BkNCVw" name="builder">
+              <packagedElement xmi:type="uml:Class" xmi:id="_NHtp8IEwEe2fWoq9BkNCVw" name="Soketas"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_NHSMIIEwEe2fWoq9BkNCVw" name="state">
+              <packagedElement xmi:type="uml:Class" xmi:id="_NHXEoIEwEe2fWoq9BkNCVw" name="RoomFull">
+                <ownedAttribute xmi:id="_NHzwkIEwEe2fWoq9BkNCVw" name="roomSpace" visibility="package" type="_NHaH8IEwEe2fWoq9BkNCVw" association="_NH2z4IEwEe2fWoq9BkNCVw"/>
+                <interfaceRealization xmi:id="_NHuRAYEwEe2fWoq9BkNCVw" client="_NHXEoIEwEe2fWoq9BkNCVw" supplier="_NHb9IIEwEe2fWoq9BkNCVw" contract="_NHb9IIEwEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH0-sYEwEe2fWoq9BkNCVw" name="RoomFull" specification="_NHuRAoEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH0-soEwEe2fWoq9BkNCVw" name="roomSpace" type="_NHaH8IEwEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_NH0-s4EwEe2fWoq9BkNCVw" type="_NHXEoIEwEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.roomSpace = roomSpace;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH0-tIEwEe2fWoq9BkNCVw" name="acceptConnections" specification="_NHx7YIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH0-tYEwEe2fWoq9BkNCVw" name="server" type="_NHtp8IEwEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>System.out.println(&quot;Room is full!&quot;);&#xD;
+		try {&#xD;
+			Thread.sleep(2000);&#xD;
+		} catch (InterruptedException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH0-toEwEe2fWoq9BkNCVw" name="passCurrentSpace" specification="_NHYSwIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH0-t4EwEe2fWoq9BkNCVw" name="currentSpace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if(roomSpace.getRoomSpace() == currentSpace) {&#xD;
+			roomSpace.setRoomState(roomSpace.getFullState());&#xD;
+		} else {&#xD;
+			roomSpace.setRoomState(roomSpace.getNotFullState());&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_NHYSwIEwEe2fWoq9BkNCVw" name="passCurrentSpace" method="_NH0-toEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHYSwYEwEe2fWoq9BkNCVw" name="currentSpace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHuRAoEwEe2fWoq9BkNCVw" name="RoomFull" visibility="package" method="_NH0-sYEwEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_NHuRBIEwEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_NHuRBYEwEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_NHuRA4EwEe2fWoq9BkNCVw" name="roomSpace" type="_NHaH8IEwEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_NHuRBoEwEe2fWoq9BkNCVw" type="_NHXEoIEwEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHx7YIEwEe2fWoq9BkNCVw" name="acceptConnections" method="_NH0-tIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHx7YYEwEe2fWoq9BkNCVw" name="server" type="_NHtp8IEwEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_NHY50IEwEe2fWoq9BkNCVw" name="RoomNotFull">
+                <ownedAttribute xmi:id="_NHzwkoEwEe2fWoq9BkNCVw" name="roomSpace" visibility="package" type="_NHaH8IEwEe2fWoq9BkNCVw" association="_NH2z44EwEe2fWoq9BkNCVw"/>
+                <interfaceRealization xmi:id="_NHvfIYEwEe2fWoq9BkNCVw" client="_NHY50IEwEe2fWoq9BkNCVw" supplier="_NHb9IIEwEe2fWoq9BkNCVw" contract="_NHb9IIEwEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH0-uIEwEe2fWoq9BkNCVw" name="RoomNotFull" specification="_NHvfIoEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH0-uYEwEe2fWoq9BkNCVw" name="roomSpace" type="_NHaH8IEwEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_NH0-uoEwEe2fWoq9BkNCVw" type="_NHY50IEwEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.roomSpace = roomSpace;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH0-u4EwEe2fWoq9BkNCVw" name="acceptConnections" specification="_NHyicIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH0-vIEwEe2fWoq9BkNCVw" name="server" type="_NHtp8IEwEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>Socket conn = null;&#xD;
+		try {&#xD;
+			conn = server.getServerSocket().accept();&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		if (conn != null) {&#xD;
+			roomSpace.setUpPoolObject(conn);&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH0-vYEwEe2fWoq9BkNCVw" name="passCurrentSpace" specification="_NHY50YEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH0-voEwEe2fWoq9BkNCVw" name="currentSpace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if(roomSpace.getRoomSpace() == currentSpace) {&#xD;
+			roomSpace.setRoomState(roomSpace.getFullState());&#xD;
+		} else {&#xD;
+			roomSpace.setRoomState(roomSpace.getNotFullState());&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_NHY50YEwEe2fWoq9BkNCVw" name="passCurrentSpace" method="_NH0-vYEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHY50oEwEe2fWoq9BkNCVw" name="currentSpace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHvfIoEwEe2fWoq9BkNCVw" name="RoomNotFull" visibility="package" method="_NH0-uIEwEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_NHvfJIEwEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_NHvfJYEwEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_NHvfI4EwEe2fWoq9BkNCVw" name="roomSpace" type="_NHaH8IEwEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_NHvfJoEwEe2fWoq9BkNCVw" type="_NHY50IEwEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHyicIEwEe2fWoq9BkNCVw" name="acceptConnections" method="_NH0-u4EwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHyicYEwEe2fWoq9BkNCVw" name="server" type="_NHtp8IEwEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_NHaH8IEwEe2fWoq9BkNCVw" name="RoomSpace">
+                <ownedAttribute xmi:id="_NHzwlIEwEe2fWoq9BkNCVw" name="roomFull" visibility="package" type="_NHb9IIEwEe2fWoq9BkNCVw" association="_NH2z5oEwEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_NH0XoYEwEe2fWoq9BkNCVw" name="roomNotFull" visibility="package" type="_NHb9IIEwEe2fWoq9BkNCVw" association="_NH3a8YEwEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_NH0Xo4EwEe2fWoq9BkNCVw" name="roomState" visibility="package" type="_NHb9IIEwEe2fWoq9BkNCVw" association="_NH3a9IEwEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_NH0XpYEwEe2fWoq9BkNCVw" name="chatRoomSpace" visibility="package">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_NH0Xp4EwEe2fWoq9BkNCVw" name="server" visibility="package" type="_NHtp8IEwEe2fWoq9BkNCVw" association="_NH3a94EwEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH0-v4EwEe2fWoq9BkNCVw" name="RoomSpace" specification="_NHyidYEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH0-wIEwEe2fWoq9BkNCVw" name="server" type="_NHtp8IEwEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_NH1lwIEwEe2fWoq9BkNCVw" type="_NHaH8IEwEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.server = server;&#xD;
+		this.chatRoomSpace = Config.getInstance().getAmount();&#xD;
+		&#xD;
+		roomFull = new RoomFull(this);&#xD;
+		roomNotFull = new RoomNotFull(this);&#xD;
+		setRoomState(roomNotFull);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH1lwYEwEe2fWoq9BkNCVw" name="setRoomState" specification="_NHwtQYEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH1lwoEwEe2fWoq9BkNCVw" name="newRoomState" type="_NHb9IIEwEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>this.roomState = newRoomState;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH1lw4EwEe2fWoq9BkNCVw" name="getRoomSpace" specification="_NHaH8YEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH1lxIEwEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return chatRoomSpace;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH1lxYEwEe2fWoq9BkNCVw" name="setUpPoolObject" specification="_NHzJgIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH1lxoEwEe2fWoq9BkNCVw" name="conn" type="_NHu4EoEwEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>ConnectedClientThread temp = ImportantObjects.getInstance().getObjectPool().getThread();&#xD;
+		temp.setupThread(conn);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH1lx4EwEe2fWoq9BkNCVw" name="acceptConnections" specification="_NHavAIEwEe2fWoq9BkNCVw">
+                  <language>java</language>
+                  <body>roomState.acceptConnections(server);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH1lyIEwEe2fWoq9BkNCVw" name="passCurrentSpace" specification="_NHavAYEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH1lyYEwEe2fWoq9BkNCVw" name="currentSpace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>roomState.passCurrentSpace(currentSpace);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH1lyoEwEe2fWoq9BkNCVw" name="getFullState" specification="_NHavA4EwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH1ly4EwEe2fWoq9BkNCVw" type="_NHb9IIEwEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>return roomFull;</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_NH1lzIEwEe2fWoq9BkNCVw" name="getNotFullState" specification="_NHavBIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NH1lzYEwEe2fWoq9BkNCVw" type="_NHb9IIEwEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>return roomNotFull;</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_NHaH8YEwEe2fWoq9BkNCVw" name="getRoomSpace" visibility="package" method="_NH1lw4EwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHaH8oEwEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHavAIEwEe2fWoq9BkNCVw" name="acceptConnections" method="_NH1lx4EwEe2fWoq9BkNCVw"/>
+                <ownedOperation xmi:id="_NHavAYEwEe2fWoq9BkNCVw" name="passCurrentSpace" method="_NH1lyIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHavAoEwEe2fWoq9BkNCVw" name="currentSpace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHavA4EwEe2fWoq9BkNCVw" name="getFullState" visibility="package" method="_NH1lyoEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHwtQ4EwEe2fWoq9BkNCVw" type="_NHb9IIEwEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHavBIEwEe2fWoq9BkNCVw" name="getNotFullState" visibility="package" method="_NH1lzIEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHwtRIEwEe2fWoq9BkNCVw" type="_NHb9IIEwEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHwtQYEwEe2fWoq9BkNCVw" name="setRoomState" visibility="package" method="_NH1lwYEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHwtQoEwEe2fWoq9BkNCVw" name="newRoomState" type="_NHb9IIEwEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHyidYEwEe2fWoq9BkNCVw" name="RoomSpace" method="_NH0-v4EwEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_NHyid4EwEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_NHyieIEwEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_NHyidoEwEe2fWoq9BkNCVw" name="server" type="_NHtp8IEwEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_NHyieYEwEe2fWoq9BkNCVw" type="_NHaH8IEwEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHzJgIEwEe2fWoq9BkNCVw" name="setUpPoolObject" visibility="package" method="_NH1lxYEwEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_NHzJgYEwEe2fWoq9BkNCVw" name="conn" type="_NHu4EoEwEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Interface" xmi:id="_NHb9IIEwEe2fWoq9BkNCVw" name="RoomSpaceState">
+                <ownedOperation xmi:id="_NHb9IYEwEe2fWoq9BkNCVw" name="passCurrentSpace">
+                  <ownedParameter xmi:id="_NHb9IoEwEe2fWoq9BkNCVw" name="currentSpace">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_NHzJgoEwEe2fWoq9BkNCVw" name="acceptConnections">
+                  <ownedParameter xmi:id="_NHzJg4EwEe2fWoq9BkNCVw" name="server" type="_NHtp8IEwEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_NH2z4IEwEe2fWoq9BkNCVw" name="" memberEnd="_NH2z4YEwEe2fWoq9BkNCVw _NHzwkIEwEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_NH2z4YEwEe2fWoq9BkNCVw" name="" type="_NHXEoIEwEe2fWoq9BkNCVw" association="_NH2z4IEwEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_NH2z44EwEe2fWoq9BkNCVw" name="" memberEnd="_NH2z5IEwEe2fWoq9BkNCVw _NHzwkoEwEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_NH2z5IEwEe2fWoq9BkNCVw" name="" type="_NHY50IEwEe2fWoq9BkNCVw" association="_NH2z44EwEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_NH2z5oEwEe2fWoq9BkNCVw" name="" memberEnd="_NH2z54EwEe2fWoq9BkNCVw _NHzwlIEwEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_NH2z54EwEe2fWoq9BkNCVw" name="" type="_NHaH8IEwEe2fWoq9BkNCVw" association="_NH2z5oEwEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_NH3a8YEwEe2fWoq9BkNCVw" name="" memberEnd="_NH3a8oEwEe2fWoq9BkNCVw _NH0XoYEwEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_NH3a8oEwEe2fWoq9BkNCVw" name="" type="_NHaH8IEwEe2fWoq9BkNCVw" association="_NH3a8YEwEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_NH3a9IEwEe2fWoq9BkNCVw" name="" memberEnd="_NH3a9YEwEe2fWoq9BkNCVw _NH0Xo4EwEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_NH3a9YEwEe2fWoq9BkNCVw" name="" type="_NHaH8IEwEe2fWoq9BkNCVw" association="_NH3a9IEwEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_NH3a94EwEe2fWoq9BkNCVw" name="" memberEnd="_NH3a-IEwEe2fWoq9BkNCVw _NH0Xp4EwEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_NH3a-IEwEe2fWoq9BkNCVw" name="" type="_NHaH8IEwEe2fWoq9BkNCVw" association="_NH3a94EwEe2fWoq9BkNCVw"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_NHTaQIEwEe2fWoq9BkNCVw" name="object_pool">
+              <packagedElement xmi:type="uml:Class" xmi:id="_NHwGMIEwEe2fWoq9BkNCVw" name="ConnectedClientThread"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_NHTaQYEwEe2fWoq9BkNCVw" name="singleton">
+              <packagedElement xmi:type="uml:Class" xmi:id="_NHwGMoEwEe2fWoq9BkNCVw" name="Config"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_NHwGNIEwEe2fWoq9BkNCVw" name="ImportantObjects"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_NHSMIYEwEe2fWoq9BkNCVw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_NHSMIoEwEe2fWoq9BkNCVw" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_NHu4EIEwEe2fWoq9BkNCVw" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_NHSMI4EwEe2fWoq9BkNCVw" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_NHu4EoEwEe2fWoq9BkNCVw" name="Socket"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_NCLps4EwEe2fWoq9BkNCVw">
+      <eAnnotations xmi:id="_NCLptIEwEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_NCMQwIEwEe2fWoq9BkNCVw" base_Package="_NAAfcIEwEe2fWoq9BkNCVw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NHYSwoEwEe2fWoq9BkNCVw" base_Element="_NHYSwIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_NHYSw4EwEe2fWoq9BkNCVw" base_Element="_NHYSwIEwEe2fWoq9BkNCVw">
+    <annotations xmi:id="_NHYSxIEwEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NHZg4IEwEe2fWoq9BkNCVw" base_Element="_NHY50YEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_NHZg4YEwEe2fWoq9BkNCVw" base_Element="_NHY50YEwEe2fWoq9BkNCVw">
+    <annotations xmi:id="_NHZg4oEwEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_NHuRAIEwEe2fWoq9BkNCVw" base_Element="_NHtp8IEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NHu4EYEwEe2fWoq9BkNCVw" base_Element="_NHu4EIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NHvfIIEwEe2fWoq9BkNCVw" base_Element="_NHu4EoEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NHwGMYEwEe2fWoq9BkNCVw" base_Element="_NHwGMIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NHwGM4EwEe2fWoq9BkNCVw" base_Element="_NHwGMoEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NHwtQIEwEe2fWoq9BkNCVw" base_Element="_NHwGNIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NHx7YoEwEe2fWoq9BkNCVw" base_Element="_NHx7YIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_NHx7Y4EwEe2fWoq9BkNCVw" base_Element="_NHx7YIEwEe2fWoq9BkNCVw">
+    <annotations xmi:id="_NHx7ZIEwEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NHyicoEwEe2fWoq9BkNCVw" base_Element="_NHyicIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_NHyic4EwEe2fWoq9BkNCVw" base_Element="_NHyicIEwEe2fWoq9BkNCVw">
+    <annotations xmi:id="_NHyidIEwEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NHzwkYEwEe2fWoq9BkNCVw" base_Element="_NHzwkIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NHzwk4EwEe2fWoq9BkNCVw" base_Element="_NHzwkoEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NH0XoIEwEe2fWoq9BkNCVw" base_Element="_NHzwlIEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NH0XooEwEe2fWoq9BkNCVw" base_Element="_NH0XoYEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NH0XpIEwEe2fWoq9BkNCVw" base_Element="_NH0Xo4EwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NH0XpoEwEe2fWoq9BkNCVw" base_Element="_NH0XpYEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_NH0-sIEwEe2fWoq9BkNCVw" base_Element="_NH0Xp4EwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NH2z4oEwEe2fWoq9BkNCVw" base_Element="_NH2z4IEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NH2z5YEwEe2fWoq9BkNCVw" base_Element="_NH2z44EwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NH3a8IEwEe2fWoq9BkNCVw" base_Element="_NH2z5oEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NH3a84EwEe2fWoq9BkNCVw" base_Element="_NH3a8YEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NH3a9oEwEe2fWoq9BkNCVw" base_Element="_NH3a9IEwEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_NH4CAIEwEe2fWoq9BkNCVw" base_Element="_NH3a94EwEe2fWoq9BkNCVw"/>
+</xmi:XMI>

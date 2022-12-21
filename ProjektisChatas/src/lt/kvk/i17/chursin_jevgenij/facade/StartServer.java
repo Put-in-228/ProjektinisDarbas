@@ -40,15 +40,13 @@ public class StartServer {
 	
 	void initObjects() {
 		objects = ImportantObjects.getInstance();
-		System.out.println("SETUPOBJECTSVAR");
-		
 		
 		objects.setObjectPool(new ConnectedClients());
-		System.out.println("SETUPOBJECTPOOl");
+		
 		objects.setObserverObject(new ServerSubject());
-		System.out.println("SETUPOBSERVER");
+		
 		objects.setStateObject(new RoomSpace(server));
-		System.out.println("SETUPSTATE");
+		
 		objects.setCriteriaGroup(new CriteriaGroup());
 		
 		objects.setCommandGroup(new CommandGroup());
@@ -58,8 +56,6 @@ public class StartServer {
 		temp.addCommand("/kick", new DisconnectClient());
 		temp.addCommand("/mute", new MuteClient());
 		temp.addCommand("/unmute", new UnmuteClient());
-		
-		System.out.println("SETUPUI");
 	}
 	
 	void setupUI() {

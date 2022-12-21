@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_JAVQMIC0Ee2MJPrBGb943A" name="ProjektisChatas">
+    <eAnnotations xmi:id="_JDza8IC0Ee2MJPrBGb943A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_JDza8YC0Ee2MJPrBGb943A" source="codegen">
+        <details xmi:id="_JDza8oC0Ee2MJPrBGb943A" key="codegenDirectory" value="/ProjektisChatas/src"/>
+        <details xmi:id="_JKJ6kIC0Ee2MJPrBGb943A" key="AssociatedSourceCode" value="/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/object_pool/ConnectedClientThread.java;2581995760/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/object_pool/ConnectedClients.java;370458861/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_JJQisIC0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQisYC0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQisoC0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQis4C0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQitIC0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQitYC0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQitoC0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQit4C0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_JJQiuIC0Ee2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JJKcEIC0Ee2MJPrBGb943A" name="lt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JJKcEYC0Ee2MJPrBGb943A" name="kvk">
+        <packagedElement xmi:type="uml:Package" xmi:id="_JJKcEoC0Ee2MJPrBGb943A" name="i17">
+          <packagedElement xmi:type="uml:Package" xmi:id="_JJLDIIC0Ee2MJPrBGb943A" name="chursin_jevgenij">
+            <packagedElement xmi:type="uml:Package" xmi:id="_JJLDJIC0Ee2MJPrBGb943A" name="addthreads">
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJcI44C0Ee2MJPrBGb943A" name="ConnectedClientOneTime"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_JJLDJYC0Ee2MJPrBGb943A" name="communication">
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJcI5YC0Ee2MJPrBGb943A" name="CommunicationMethodsIn"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJcv8IC0Ee2MJPrBGb943A" name="CommunicationMethodsOut"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_JJLDJoC0Ee2MJPrBGb943A" name="observer">
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJcv8oC0Ee2MJPrBGb943A" name="ServerObserver"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJelI4C0Ee2MJPrBGb943A" name="ServerSubject"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_JJLDJ4C0Ee2MJPrBGb943A" name="singleton">
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJcv9IC0Ee2MJPrBGb943A" name="ImportantObjects"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_JJMRQIC0Ee2MJPrBGb943A" name="object_pool">
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJP7oIC0Ee2MJPrBGb943A" name="ConnectedClientThread">
+                <ownedAttribute xmi:id="_JJhBYIC0Ee2MJPrBGb943A" name="conn" visibility="private" type="_JJcI4YC0Ee2MJPrBGb943A" association="_JJkrwIC0Ee2MJPrBGb943A">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JJhBYYC0Ee2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JJhBY4C0Ee2MJPrBGb943A" name="in" visibility="private" type="_JJa6wIC0Ee2MJPrBGb943A" association="_JJlS0IC0Ee2MJPrBGb943A">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JJhBZIC0Ee2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JJhBZoC0Ee2MJPrBGb943A" name="out" visibility="private" type="_JJbh0YC0Ee2MJPrBGb943A" association="_JJlS04C0Ee2MJPrBGb943A">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JJhocIC0Ee2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JJhocoC0Ee2MJPrBGb943A" name="userName" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JJhoc4C0Ee2MJPrBGb943A" name="muted" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JJhodIC0Ee2MJPrBGb943A" value="false"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JJhodoC0Ee2MJPrBGb943A" name="status" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JJhod4C0Ee2MJPrBGb943A" value="true"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JJiPgIC0Ee2MJPrBGb943A" name="observerObject" type="_JJcv8oC0Ee2MJPrBGb943A" isReadOnly="true" association="_JJlS1oC0Ee2MJPrBGb943A"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJi2k4C0Ee2MJPrBGb943A" name="ConnectedClientThread" specification="_JJQiuYC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJi2lIC0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>observerObject = new ServerObserver(this);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJi2lYC0Ee2MJPrBGb943A" name="run" specification="_JJRJwoC0Ee2MJPrBGb943A">
+                  <language>java</language>
+                  <body>while (status == true) {&#xD;
+			String msg = read();&#xD;
+			if (msg == null) {&#xD;
+				System.out.println(&quot;Message is null&quot;);&#xD;
+				break;&#xD;
+			}&#xD;
+			if (muted == false) {&#xD;
+				msg = String.join(&quot; &quot;, ImportantObjects.getInstance().getCriteriaGroup().runThroughFilter(msg.split(&quot; &quot;)));&#xD;
+				msg = userName + &quot;: &quot; + msg;&#xD;
+				ImportantObjects.getInstance().getObserverObject().setMessage(msg);&#xD;
+			} else {&#xD;
+				send(&quot;/muted&quot;);&#xD;
+			}&#xD;
+		}&#xD;
+		System.out.println(&quot;Returning object to objectPool&quot;);&#xD;
+		ImportantObjects.getInstance().getObjectPool().returnThread(this);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJi2loC0Ee2MJPrBGb943A" name="send" specification="_JJRJw4C0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJi2l4C0Ee2MJPrBGb943A" name="msg">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (in != null &amp;&amp; out != null) {&#xD;
+			CommunicationMethodsOut.sendString(out, msg);&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdoIC0Ee2MJPrBGb943A" name="read" specification="_JJRJxYC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJjdoYC0Ee2MJPrBGb943A" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (in != null &amp;&amp; out != null) {&#xD;
+			int length = CommunicationMethodsIn.readInteger(in);&#xD;
+			if (length == -1) {&#xD;
+				return null;&#xD;
+			}&#xD;
+			String msg = CommunicationMethodsIn.readMsg(in, length);&#xD;
+			return msg;&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdooC0Ee2MJPrBGb943A" name="setupThread" specification="_JJgaUIC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJjdo4C0Ee2MJPrBGb943A" name="conn" type="_JJcI4YC0Ee2MJPrBGb943A"/>
+                  <language>java</language>
+                  <body>this.conn = conn;&#xD;
+		&#xD;
+		System.out.println(&quot;Setting up thread&quot;);&#xD;
+		&#xD;
+		try {&#xD;
+			in = new DataInputStream(conn.getInputStream());&#xD;
+			out = new DataOutputStream(conn.getOutputStream());&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+		&#xD;
+		if (in != null &amp;&amp; out != null) {&#xD;
+			System.out.println(&quot;Asking for username&quot;);&#xD;
+			setUserName();&#xD;
+			ConnectedClientOneTime temp = new ConnectedClientOneTime(this);&#xD;
+			System.out.println(&quot;Starting thread instance&quot;);&#xD;
+			temp.start();&#xD;
+		} else {&#xD;
+			ConnectedClients.returnThread(this);&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdpIC0Ee2MJPrBGb943A" name="nullObject" specification="_JJRJx4C0Ee2MJPrBGb943A">
+                  <language>java</language>
+                  <body>conn = null;&#xD;
+		in = null;&#xD;
+		out = null;&#xD;
+		userName = null;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdpYC0Ee2MJPrBGb943A" name="forceDisconnect" specification="_JJRJyIC0Ee2MJPrBGb943A">
+                  <language>java</language>
+                  <body>send(&quot;/kick&quot;);&#xD;
+		status = false;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdpoC0Ee2MJPrBGb943A" name="setUserName" specification="_JJRw0IC0Ee2MJPrBGb943A">
+                  <language>java</language>
+                  <body>send(&quot;/username&quot;);&#xD;
+		userName = read();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdp4C0Ee2MJPrBGb943A" name="mute" specification="_JJRw0YC0Ee2MJPrBGb943A">
+                  <language>java</language>
+                  <body>muted = true;&#xD;
+		send(&quot;/mute&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdqIC0Ee2MJPrBGb943A" name="unmute" specification="_JJRw0oC0Ee2MJPrBGb943A">
+                  <language>java</language>
+                  <body>muted = false;&#xD;
+		send(&quot;/unmute&quot;);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJjdqYC0Ee2MJPrBGb943A" name="getIP" specification="_JJRw04C0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJjdqoC0Ee2MJPrBGb943A" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return conn.getInetAddress().toString().substring(1);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JJQiuYC0Ee2MJPrBGb943A" name="ConnectedClientThread" visibility="package" method="_JJi2k4C0Ee2MJPrBGb943A">
+                  <eAnnotations xmi:id="_JJQiuoC0Ee2MJPrBGb943A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_JJRJwIC0Ee2MJPrBGb943A" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_JJRJwYC0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JJRJwoC0Ee2MJPrBGb943A" name="run" method="_JJi2lYC0Ee2MJPrBGb943A"/>
+                <ownedOperation xmi:id="_JJRJw4C0Ee2MJPrBGb943A" name="send" method="_JJi2loC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJRJxIC0Ee2MJPrBGb943A" name="msg">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JJRJxYC0Ee2MJPrBGb943A" name="read" visibility="private" method="_JJjdoIC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJRJxoC0Ee2MJPrBGb943A" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JJRJx4C0Ee2MJPrBGb943A" name="nullObject" method="_JJjdpIC0Ee2MJPrBGb943A"/>
+                <ownedOperation xmi:id="_JJRJyIC0Ee2MJPrBGb943A" name="forceDisconnect" method="_JJjdpYC0Ee2MJPrBGb943A"/>
+                <ownedOperation xmi:id="_JJRw0IC0Ee2MJPrBGb943A" name="setUserName" visibility="private" method="_JJjdpoC0Ee2MJPrBGb943A"/>
+                <ownedOperation xmi:id="_JJRw0YC0Ee2MJPrBGb943A" name="mute" method="_JJjdp4C0Ee2MJPrBGb943A"/>
+                <ownedOperation xmi:id="_JJRw0oC0Ee2MJPrBGb943A" name="unmute" method="_JJjdqIC0Ee2MJPrBGb943A"/>
+                <ownedOperation xmi:id="_JJRw04C0Ee2MJPrBGb943A" name="getIP" method="_JJjdqYC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJRw1IC0Ee2MJPrBGb943A" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JJgaUIC0Ee2MJPrBGb943A" name="setupThread" method="_JJjdooC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJgaUYC0Ee2MJPrBGb943A" name="conn" type="_JJcI4YC0Ee2MJPrBGb943A"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJS-8IC0Ee2MJPrBGb943A" name="ConnectedClients">
+                <ownedAttribute xmi:id="_JJiPgYC0Ee2MJPrBGb943A" name="free" visibility="private" isStatic="true" type="_JJP7oIC0Ee2MJPrBGb943A" isOrdered="true" association="_JJl54IC0Ee2MJPrBGb943A">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JJiPgoC0Ee2MJPrBGb943A" value="*"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JJiPg4C0Ee2MJPrBGb943A" value="new LinkedList&lt;>()"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JJiPhYC0Ee2MJPrBGb943A" name="used" visibility="private" isStatic="true" type="_JJP7oIC0Ee2MJPrBGb943A" isOrdered="true" association="_JJl544C0Ee2MJPrBGb943A">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JJi2kIC0Ee2MJPrBGb943A" value="*"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JJi2kYC0Ee2MJPrBGb943A" value="new LinkedList&lt;>()"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJkEsIC0Ee2MJPrBGb943A" name="getThread" specification="_JJS-8YC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJkEsYC0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>if (free.isEmpty()) {&#xD;
+			ConnectedClientThread thread = new ConnectedClientThread();&#xD;
+			used.add(thread);&#xD;
+			ImportantObjects.getInstance().getObserverObject().registerObserver(thread.getObserverObject());&#xD;
+			ImportantObjects.getInstance().getStateObject().passCurrentSpace(used.size());&#xD;
+			return thread;&#xD;
+		} else {&#xD;
+			ConnectedClientThread temp = free.get(0);&#xD;
+			used.add(temp);&#xD;
+			free.remove(temp);&#xD;
+			ImportantObjects.getInstance().getObserverObject().registerObserver(temp.getObserverObject());&#xD;
+			ImportantObjects.getInstance().getStateObject().passCurrentSpace(used.size());&#xD;
+			return temp;&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJkEsoC0Ee2MJPrBGb943A" name="returnThread" specification="_JJfMMoC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJkEs4C0Ee2MJPrBGb943A" name="thread" type="_JJP7oIC0Ee2MJPrBGb943A"/>
+                  <language>java</language>
+                  <body>ImportantObjects.getInstance().getObserverObject().unregisterObserver(thread.getObserverObject());&#xD;
+		thread.nullObject();&#xD;
+		free.add(thread);&#xD;
+		used.remove(thread);&#xD;
+		ImportantObjects.getInstance().getStateObject().passCurrentSpace(used.size());&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJkEtIC0Ee2MJPrBGb943A" name="findByUsername" specification="_JJTmAIC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJkEtYC0Ee2MJPrBGb943A" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JJkEtoC0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>for (ConnectedClientThread v : used) {&#xD;
+			if (userName.equals(v.getUserName())) {&#xD;
+				return v;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JJkEt4C0Ee2MJPrBGb943A" name="getClients" specification="_JJTmAoC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJkEuIC0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JJkEuYC0Ee2MJPrBGb943A" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return used;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JJS-8YC0Ee2MJPrBGb943A" name="getThread" isStatic="true" method="_JJkEsIC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJfMMYC0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JJTmAIC0Ee2MJPrBGb943A" name="findByUsername" isStatic="true" method="_JJkEtIC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJTmAYC0Ee2MJPrBGb943A" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JJfMNIC0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JJTmAoC0Ee2MJPrBGb943A" name="getClients" isStatic="true" method="_JJkEt4C0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJTmA4C0Ee2MJPrBGb943A" type="_JJP7oIC0Ee2MJPrBGb943A" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JJTmBIC0Ee2MJPrBGb943A" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JJfMMoC0Ee2MJPrBGb943A" name="returnThread" isStatic="true" method="_JJkEsoC0Ee2MJPrBGb943A">
+                  <ownedParameter xmi:id="_JJfMM4C0Ee2MJPrBGb943A" name="thread" type="_JJP7oIC0Ee2MJPrBGb943A"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JJkrwIC0Ee2MJPrBGb943A" name="" memberEnd="_JJkrwYC0Ee2MJPrBGb943A _JJhBYIC0Ee2MJPrBGb943A">
+                <ownedEnd xmi:id="_JJkrwYC0Ee2MJPrBGb943A" name="" type="_JJP7oIC0Ee2MJPrBGb943A" association="_JJkrwIC0Ee2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JJlS0IC0Ee2MJPrBGb943A" name="" memberEnd="_JJlS0YC0Ee2MJPrBGb943A _JJhBY4C0Ee2MJPrBGb943A">
+                <ownedEnd xmi:id="_JJlS0YC0Ee2MJPrBGb943A" name="" type="_JJP7oIC0Ee2MJPrBGb943A" association="_JJlS0IC0Ee2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JJlS04C0Ee2MJPrBGb943A" name="" memberEnd="_JJlS1IC0Ee2MJPrBGb943A _JJhBZoC0Ee2MJPrBGb943A">
+                <ownedEnd xmi:id="_JJlS1IC0Ee2MJPrBGb943A" name="" type="_JJP7oIC0Ee2MJPrBGb943A" association="_JJlS04C0Ee2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JJlS1oC0Ee2MJPrBGb943A" name="" memberEnd="_JJlS14C0Ee2MJPrBGb943A _JJiPgIC0Ee2MJPrBGb943A">
+                <ownedEnd xmi:id="_JJlS14C0Ee2MJPrBGb943A" name="" type="_JJP7oIC0Ee2MJPrBGb943A" association="_JJlS1oC0Ee2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JJl54IC0Ee2MJPrBGb943A" name="" memberEnd="_JJl54YC0Ee2MJPrBGb943A _JJiPgYC0Ee2MJPrBGb943A">
+                <ownedEnd xmi:id="_JJl54YC0Ee2MJPrBGb943A" name="" type="_JJS-8IC0Ee2MJPrBGb943A" association="_JJl54IC0Ee2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JJl544C0Ee2MJPrBGb943A" name="" memberEnd="_JJl55IC0Ee2MJPrBGb943A _JJiPhYC0Ee2MJPrBGb943A">
+                <ownedEnd xmi:id="_JJl55IC0Ee2MJPrBGb943A" name="" type="_JJS-8IC0Ee2MJPrBGb943A" association="_JJl544C0Ee2MJPrBGb943A"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_JJM4UYC0Ee2MJPrBGb943A" name="state">
+              <packagedElement xmi:type="uml:Class" xmi:id="_JJelJYC0Ee2MJPrBGb943A" name="RoomSpace"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JJLDIYC0Ee2MJPrBGb943A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JJLDIoC0Ee2MJPrBGb943A" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JJa6wIC0Ee2MJPrBGb943A" name="DataInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JJbh0YC0Ee2MJPrBGb943A" name="DataOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JJbh04C0Ee2MJPrBGb943A" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JJLDI4C0Ee2MJPrBGb943A" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JJcI4YC0Ee2MJPrBGb943A" name="Socket"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_JJM4UIC0Ee2MJPrBGb943A" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JJd-EIC0Ee2MJPrBGb943A" name="LinkedList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JJelIYC0Ee2MJPrBGb943A" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_JED5oIC0Ee2MJPrBGb943A">
+      <eAnnotations xmi:id="_JED5oYC0Ee2MJPrBGb943A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_JED5ooC0Ee2MJPrBGb943A" base_Package="_JAVQMIC0Ee2MJPrBGb943A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_JJbh0IC0Ee2MJPrBGb943A" base_Element="_JJa6wIC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJbh0oC0Ee2MJPrBGb943A" base_Element="_JJbh0YC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJcI4IC0Ee2MJPrBGb943A" base_Element="_JJbh04C0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJcI4oC0Ee2MJPrBGb943A" base_Element="_JJcI4YC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJcI5IC0Ee2MJPrBGb943A" base_Element="_JJcI44C0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJcI5oC0Ee2MJPrBGb943A" base_Element="_JJcI5YC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJcv8YC0Ee2MJPrBGb943A" base_Element="_JJcv8IC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJcv84C0Ee2MJPrBGb943A" base_Element="_JJcv8oC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJcv9YC0Ee2MJPrBGb943A" base_Element="_JJcv9IC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJelIIC0Ee2MJPrBGb943A" base_Element="_JJd-EIC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJelIoC0Ee2MJPrBGb943A" base_Element="_JJelIYC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJelJIC0Ee2MJPrBGb943A" base_Element="_JJelI4C0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJfMMIC0Ee2MJPrBGb943A" base_Element="_JJelJYC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JJhBYoC0Ee2MJPrBGb943A" base_Element="_JJhBYIC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JJhBZYC0Ee2MJPrBGb943A" base_Element="_JJhBY4C0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JJhocYC0Ee2MJPrBGb943A" base_Element="_JJhBZoC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JJhodYC0Ee2MJPrBGb943A" base_Element="_JJhoc4C0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JJhoeIC0Ee2MJPrBGb943A" base_Element="_JJhodoC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JJiPhIC0Ee2MJPrBGb943A" base_Element="_JJiPgYC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JJi2koC0Ee2MJPrBGb943A" base_Element="_JJiPhYC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJkrwoC0Ee2MJPrBGb943A" base_Element="_JJkrwIC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJlS0oC0Ee2MJPrBGb943A" base_Element="_JJlS0IC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJlS1YC0Ee2MJPrBGb943A" base_Element="_JJlS04C0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJlS2IC0Ee2MJPrBGb943A" base_Element="_JJlS1oC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJl54oC0Ee2MJPrBGb943A" base_Element="_JJl54IC0Ee2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_JJl55YC0Ee2MJPrBGb943A" base_Element="_JJl544C0Ee2MJPrBGb943A"/>
+</xmi:XMI>

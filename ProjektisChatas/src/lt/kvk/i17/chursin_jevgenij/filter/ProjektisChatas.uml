@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_WHZXMIEvEe2fWoq9BkNCVw" name="ProjektisChatas">
+    <eAnnotations xmi:id="_WJPxUIEvEe2fWoq9BkNCVw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_WJPxUYEvEe2fWoq9BkNCVw" source="codegen">
+        <details xmi:id="_WJPxUoEvEe2fWoq9BkNCVw" key="codegenDirectory" value="/ProjektisChatas/src"/>
+        <details xmi:id="_WPT9EIEvEe2fWoq9BkNCVw" key="AssociatedSourceCode" value="/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/filter/Criteria.java;752438001/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/filter/CriteriaFactory.java;1274550288/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/filter/CriteriaGroup.java;1192295452/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_WOjvIIEvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvIYEvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvIoEvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvI4EvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvJIEvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvJYEvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvJoEvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvJ4EvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_WOjvKIEvEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WOdogIEvEe2fWoq9BkNCVw" name="lt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WOdogYEvEe2fWoq9BkNCVw" name="kvk">
+        <packagedElement xmi:type="uml:Package" xmi:id="_WOePkIEvEe2fWoq9BkNCVw" name="i17">
+          <packagedElement xmi:type="uml:Package" xmi:id="_WOePkYEvEe2fWoq9BkNCVw" name="chursin_jevgenij">
+            <packagedElement xmi:type="uml:Package" xmi:id="_WOePkoEvEe2fWoq9BkNCVw" name="filter">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_WOjIEIEvEe2fWoq9BkNCVw" name="Criteria">
+                <ownedAttribute xmi:id="_WOkWNIEvEe2fWoq9BkNCVw" name="bannedWord" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedOperation xmi:id="_WOjvKYEvEe2fWoq9BkNCVw" name="criteria">
+                  <ownedParameter xmi:id="_WOjvKoEvEe2fWoq9BkNCVw" name="words">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WOkWM4EvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WOkWMIEvEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WOkWMYEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WOk9QIEvEe2fWoq9BkNCVw" name="CriteriaFactory">
+                <ownedAttribute xmi:id="_WO2qEIEvEe2fWoq9BkNCVw" name="bannedword" visibility="private" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <interfaceRealization xmi:id="_WO004IEvEe2fWoq9BkNCVw" client="_WOk9QIEvEe2fWoq9BkNCVw" supplier="_WOjIEIEvEe2fWoq9BkNCVw" contract="_WOjIEIEvEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO3RIYEvEe2fWoq9BkNCVw" name="CriteriaFactory" specification="_WOk9QYEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO3RIoEvEe2fWoq9BkNCVw" name="bannedword">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WO3RI4EvEe2fWoq9BkNCVw" type="_WOk9QIEvEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.bannedword = bannedword;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO3RJIEvEe2fWoq9BkNCVw" name="criteria" specification="_WOk9RoEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO3RJYEvEe2fWoq9BkNCVw" name="words">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WO3RJoEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WO3RJ4EvEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WO3RKIEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>String[] newWords = words;&#xD;
+		&#xD;
+		for (int i = 0; i&lt;words.length; i++) {&#xD;
+			if (words[i].contains(bannedword)) {&#xD;
+				String newWord = &quot;&quot;;&#xD;
+				for (int o = 0; o &lt; words[i].length(); o++) {&#xD;
+					newWord += &quot;*&quot;;&#xD;
+				}&#xD;
+				newWords[i] = newWord;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return newWords;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO3RKYEvEe2fWoq9BkNCVw" name="getBannedWord" specification="_WOmLYoEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO3RKoEvEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return this.bannedword;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_WOk9QYEvEe2fWoq9BkNCVw" name="CriteriaFactory" method="_WO3RIYEvEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_WOk9Q4EvEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_WOk9RIEvEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_WOk9QoEvEe2fWoq9BkNCVw" name="bannedword">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WOk9RYEvEe2fWoq9BkNCVw" type="_WOk9QIEvEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_WOk9RoEvEe2fWoq9BkNCVw" name="criteria" method="_WO3RJIEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WOlkUIEvEe2fWoq9BkNCVw" name="words">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WOlkVYEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WOlkUYEvEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WOlkUoEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_WOmLYoEvEe2fWoq9BkNCVw" name="getBannedWord" method="_WO3RKYEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WOmLY4EvEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_WOmyc4EvEe2fWoq9BkNCVw" name="CriteriaGroup">
+                <ownedAttribute xmi:id="_WO2qEoEvEe2fWoq9BkNCVw" name="criterias" visibility="package" type="_WOjIEIEvEe2fWoq9BkNCVw" isOrdered="true" association="_WO4fQIEvEe2fWoq9BkNCVw">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WO2qE4EvEe2fWoq9BkNCVw" value="*"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_WO2qFIEvEe2fWoq9BkNCVw" value="new LinkedList&lt;>()"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO3RK4EvEe2fWoq9BkNCVw" name="add" specification="_WO2DAYEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO3RLIEvEe2fWoq9BkNCVw" name="criteria" type="_WOjIEIEvEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>criterias.add(criteria);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO3RLYEvEe2fWoq9BkNCVw" name="remove" specification="_WO2DA4EvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO3RLoEvEe2fWoq9BkNCVw" name="criteria" type="_WOjIEIEvEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>criterias.remove(criteria);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO34MIEvEe2fWoq9BkNCVw" name="runThroughFilter" specification="_WOnZgIEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO34MYEvEe2fWoq9BkNCVw" name="words">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WO34MoEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WO34M4EvEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WO34NIEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (criterias.size() > 0) {&#xD;
+			for (Criteria v : criterias) {&#xD;
+				words = v.criteria(words);&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return words;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO34NYEvEe2fWoq9BkNCVw" name="getCriterias" specification="_WOnZhoEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO34NoEvEe2fWoq9BkNCVw" type="_WOjIEIEvEe2fWoq9BkNCVw" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WO34N4EvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>return criterias;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_WO34OIEvEe2fWoq9BkNCVw" name="getCriteriaByBannedWord" specification="_WOoAkoEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO34OYEvEe2fWoq9BkNCVw" name="bannedword">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WO34OoEvEe2fWoq9BkNCVw" type="_WOjIEIEvEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>if (criterias.size() > 0) {&#xD;
+			for (Criteria v : criterias) {&#xD;
+				if (v.getBannedWord().equals(bannedword)) {&#xD;
+					return v;&#xD;
+				}&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_WOnZgIEvEe2fWoq9BkNCVw" name="runThroughFilter" method="_WO34MIEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WOnZgYEvEe2fWoq9BkNCVw" name="words">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WOnZhYEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WOnZgoEvEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WOnZg4EvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_WOnZhoEvEe2fWoq9BkNCVw" name="getCriterias" method="_WO34NYEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WOoAkIEvEe2fWoq9BkNCVw" type="_WOjIEIEvEe2fWoq9BkNCVw" isOrdered="true" direction="return">
+                    <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_WOoAkYEvEe2fWoq9BkNCVw" value="*"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_WOoAkoEvEe2fWoq9BkNCVw" name="getCriteriaByBannedWord" method="_WO34OIEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WOoAk4EvEe2fWoq9BkNCVw" name="bannedword">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_WO2DBYEvEe2fWoq9BkNCVw" type="_WOjIEIEvEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_WO2DAYEvEe2fWoq9BkNCVw" name="add" method="_WO3RK4EvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO2DAoEvEe2fWoq9BkNCVw" name="criteria" type="_WOjIEIEvEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_WO2DA4EvEe2fWoq9BkNCVw" name="remove" method="_WO3RLYEvEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_WO2DBIEvEe2fWoq9BkNCVw" name="criteria" type="_WOjIEIEvEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_WO4fQIEvEe2fWoq9BkNCVw" name="" memberEnd="_WO4fQYEvEe2fWoq9BkNCVw _WO2qEoEvEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_WO4fQYEvEe2fWoq9BkNCVw" name="" type="_WOmyc4EvEe2fWoq9BkNCVw" association="_WO4fQIEvEe2fWoq9BkNCVw"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_WOgEwIEvEe2fWoq9BkNCVw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_WOgEwYEvEe2fWoq9BkNCVw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_WO1b8IEvEe2fWoq9BkNCVw" name="LinkedList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_WO1b8oEvEe2fWoq9BkNCVw" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_WJQYYIEvEe2fWoq9BkNCVw">
+      <eAnnotations xmi:id="_WJQYYYEvEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_WJQYYoEvEe2fWoq9BkNCVw" base_Package="_WHZXMIEvEe2fWoq9BkNCVw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Array xmi:id="_WOkWMoEvEe2fWoq9BkNCVw" base_Element="_WOjvKYEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Array xmi:id="_WOlkU4EvEe2fWoq9BkNCVw" dimensions="1" base_Element="_WOk9RoEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WOlkVIEvEe2fWoq9BkNCVw" base_Element="_WOk9RoEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Array xmi:id="_WOlkVoEvEe2fWoq9BkNCVw" dimensions="1" base_Element="_WOlkUIEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_WOmLYIEvEe2fWoq9BkNCVw" base_Element="_WOk9RoEvEe2fWoq9BkNCVw">
+    <annotations xmi:id="_WOmLYYEvEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WOmycIEvEe2fWoq9BkNCVw" base_Element="_WOmLYoEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_WOmycYEvEe2fWoq9BkNCVw" base_Element="_WOmLYoEvEe2fWoq9BkNCVw">
+    <annotations xmi:id="_WOmycoEvEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Array xmi:id="_WOnZhIEvEe2fWoq9BkNCVw" base_Element="_WOnZgIEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_WO1b8YEvEe2fWoq9BkNCVw" base_Element="_WO1b8IEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_WO2DAIEvEe2fWoq9BkNCVw" base_Element="_WO1b8oEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WO2qEYEvEe2fWoq9BkNCVw" base_Element="_WO2qEIEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_WO3RIIEvEe2fWoq9BkNCVw" base_Element="_WO2qEoEvEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_WO4fQoEvEe2fWoq9BkNCVw" base_Element="_WO4fQIEvEe2fWoq9BkNCVw"/>
+</xmi:XMI>

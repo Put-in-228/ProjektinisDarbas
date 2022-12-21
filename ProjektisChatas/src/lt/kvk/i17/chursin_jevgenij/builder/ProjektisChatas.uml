@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Xh3uYICxEe2MJPrBGb943A" name="ProjektisChatas">
+    <eAnnotations xmi:id="_X0UJQICxEe2MJPrBGb943A" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_X0UJQYCxEe2MJPrBGb943A" source="codegen">
+        <details xmi:id="_X0UJQoCxEe2MJPrBGb943A" key="codegenDirectory" value="/ProjektisChatas/src"/>
+        <details xmi:id="_X_wkQICxEe2MJPrBGb943A" key="AssociatedSourceCode" value="/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/builder/SocketBuilder.java;1010926357/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/builder/Soketas.java;2222100855/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_X7l18ICxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_X7l18YCxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_X7l18oCxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_X7l184CxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_X7l19ICxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_X7l19YCxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_X7l19oCxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_X7l194CxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_X7mdAICxEe2MJPrBGb943A">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_X7VXQICxEe2MJPrBGb943A" name="lt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_X7VXQYCxEe2MJPrBGb943A" name="kvk">
+        <packagedElement xmi:type="uml:Package" xmi:id="_X7VXQoCxEe2MJPrBGb943A" name="i17">
+          <packagedElement xmi:type="uml:Package" xmi:id="_X7VXQ4CxEe2MJPrBGb943A" name="chursin_jevgenij">
+            <packagedElement xmi:type="uml:Package" xmi:id="_X7XMcICxEe2MJPrBGb943A" name="connection_handling">
+              <packagedElement xmi:type="uml:Class" xmi:id="_X770MYCxEe2MJPrBGb943A" name="ServerConnect"/>
+              <packagedElement xmi:type="uml:Class" xmi:id="_X78bQICxEe2MJPrBGb943A" name="StartServer"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_X7aPwICxEe2MJPrBGb943A" name="builder">
+              <packagedElement xmi:type="uml:Class" xmi:id="_X7kAwICxEe2MJPrBGb943A" name="SocketBuilder">
+                <ownedAttribute xmi:id="_X8FlMICxEe2MJPrBGb943A" name="port" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8GMQYCxEe2MJPrBGb943A" name="ip" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_X8GMQoCxEe2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8GzUYCxEe2MJPrBGb943A" name="amount" visibility="private">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8GzU4CxEe2MJPrBGb943A" name="sConn" visibility="private" type="_X76mEICxEe2MJPrBGb943A" association="_X8UOsICxEe2MJPrBGb943A">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_X8GzVICxEe2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8HaYYCxEe2MJPrBGb943A" name="cConn" visibility="private" type="_X76mEoCxEe2MJPrBGb943A" association="_X8U1wYCxEe2MJPrBGb943A">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_X8HaYoCxEe2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8IBcICxEe2MJPrBGb943A" name="in" visibility="private" type="_X74J0ICxEe2MJPrBGb943A" association="_X8Vc0YCxEe2MJPrBGb943A">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_X8IBcYCxEe2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8IBc4CxEe2MJPrBGb943A" name="out" visibility="private" type="_X75X8ICxEe2MJPrBGb943A" association="_X8Vc1ICxEe2MJPrBGb943A">
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_X8IBdICxEe2MJPrBGb943A" value="null"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8IogICxEe2MJPrBGb943A" name="socketObject" visibility="private" type="_X7qucICxEe2MJPrBGb943A" association="_X8WD4YCxEe2MJPrBGb943A"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8OvIICxEe2MJPrBGb943A" name="SocketBuilder" specification="_X7nEEICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8PWMICxEe2MJPrBGb943A" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_X8PWMYCxEe2MJPrBGb943A" type="_X7kAwICxEe2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>socketObject = new Soketas(userName);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8RycICxEe2MJPrBGb943A" name="addPort" specification="_X7oSMICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8RycYCxEe2MJPrBGb943A" name="port">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.port = port;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8RycoCxEe2MJPrBGb943A" name="addIp" specification="_X7oSMoCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8Ryc4CxEe2MJPrBGb943A" name="ip">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.ip = ip;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8RydICxEe2MJPrBGb943A" name="addAmount" specification="_X7oSNICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8RydYCxEe2MJPrBGb943A" name="amount">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>this.amount = amount;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8RydoCxEe2MJPrBGb943A" name="build" specification="_X7o5QICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8Ryd4CxEe2MJPrBGb943A" type="_X7qucICxEe2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>if (ip == null) {&#xD;
+			sConn = StartServer.connStart(port, amount);&#xD;
+			&#xD;
+			if (sConn != null) {&#xD;
+				socketObject.setServer(sConn);&#xD;
+				return socketObject;&#xD;
+			}&#xD;
+		} else {&#xD;
+			cConn = ServerConnect.connStart(ip, port);&#xD;
+			&#xD;
+			if (cConn != null) {&#xD;
+				socketObject.setClient(cConn);&#xD;
+				return socketObject;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_X7nEEICxEe2MJPrBGb943A" name="SocketBuilder" method="_X8OvIICxEe2MJPrBGb943A">
+                  <eAnnotations xmi:id="_X7nrIICxEe2MJPrBGb943A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_X7nrIYCxEe2MJPrBGb943A" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_X7nEEYCxEe2MJPrBGb943A" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_X7nrIoCxEe2MJPrBGb943A" type="_X7kAwICxEe2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7oSMICxEe2MJPrBGb943A" name="addPort" method="_X8RycICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X7oSMYCxEe2MJPrBGb943A" name="port">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7oSMoCxEe2MJPrBGb943A" name="addIp" method="_X8RycoCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X7oSM4CxEe2MJPrBGb943A" name="ip">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7oSNICxEe2MJPrBGb943A" name="addAmount" method="_X8RydICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X7oSNYCxEe2MJPrBGb943A" name="amount">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7o5QICxEe2MJPrBGb943A" name="build" method="_X8RydoCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X79CUICxEe2MJPrBGb943A" type="_X7qucICxEe2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_X7qucICxEe2MJPrBGb943A" name="Soketas">
+                <ownedAttribute xmi:id="_X8IogoCxEe2MJPrBGb943A" name="userName" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_X8JPk4CxEe2MJPrBGb943A" name="sConn" visibility="private" type="_X76mEICxEe2MJPrBGb943A" association="_X8Wq8YCxEe2MJPrBGb943A"/>
+                <ownedAttribute xmi:id="_X8J2oICxEe2MJPrBGb943A" name="cConn" visibility="private" type="_X76mEoCxEe2MJPrBGb943A" association="_X8Wq9ICxEe2MJPrBGb943A"/>
+                <ownedAttribute xmi:id="_X8J2ooCxEe2MJPrBGb943A" name="in" visibility="private" type="_X74J0ICxEe2MJPrBGb943A" association="_X8XSAYCxEe2MJPrBGb943A"/>
+                <ownedAttribute xmi:id="_X8J2pICxEe2MJPrBGb943A" name="out" visibility="private" type="_X75X8ICxEe2MJPrBGb943A" association="_X8XSBICxEe2MJPrBGb943A"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8SZgoCxEe2MJPrBGb943A" name="Soketas" specification="_X7r8kICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8SZg4CxEe2MJPrBGb943A" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_X8SZhICxEe2MJPrBGb943A" type="_X7qucICxEe2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>this.userName = userName;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8SZhYCxEe2MJPrBGb943A" name="setClient" specification="_X8DwAICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8SZhoCxEe2MJPrBGb943A" name="cConn" type="_X76mEoCxEe2MJPrBGb943A"/>
+                  <language>java</language>
+                  <body>this.cConn = cConn;&#xD;
+		&#xD;
+		try {&#xD;
+			this.in = new DataInputStream(cConn.getInputStream());&#xD;
+			this.out = new DataOutputStream(cConn.getOutputStream());&#xD;
+		} catch (IOException e) {&#xD;
+			e.printStackTrace();&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8SZh4CxEe2MJPrBGb943A" name="setServer" specification="_X8DwAoCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8SZiICxEe2MJPrBGb943A" name="sConn" type="_X76mEICxEe2MJPrBGb943A"/>
+                  <language>java</language>
+                  <body>this.sConn = sConn;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8SZiYCxEe2MJPrBGb943A" name="getServerSocket" specification="_X7sjoICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8SZioCxEe2MJPrBGb943A" type="_X76mEICxEe2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>return sConn;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8SZi4CxEe2MJPrBGb943A" name="getClientSocket" specification="_X7sjoYCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8SZjICxEe2MJPrBGb943A" type="_X76mEoCxEe2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>return cConn;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8TAkICxEe2MJPrBGb943A" name="getInput" specification="_X7tKsICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8TAkYCxEe2MJPrBGb943A" type="_X74J0ICxEe2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>return in;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_X8TAkoCxEe2MJPrBGb943A" name="getOutput" specification="_X7tKsYCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8TAk4CxEe2MJPrBGb943A" type="_X75X8ICxEe2MJPrBGb943A" direction="return"/>
+                  <language>java</language>
+                  <body>return out;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_X7r8kICxEe2MJPrBGb943A" name="Soketas" visibility="package" method="_X8SZgoCxEe2MJPrBGb943A">
+                  <eAnnotations xmi:id="_X7r8koCxEe2MJPrBGb943A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_X7r8k4CxEe2MJPrBGb943A" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_X7r8kYCxEe2MJPrBGb943A" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_X7r8lICxEe2MJPrBGb943A" type="_X7qucICxEe2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7sjoICxEe2MJPrBGb943A" name="getServerSocket" method="_X8SZiYCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8EXEYCxEe2MJPrBGb943A" type="_X76mEICxEe2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7sjoYCxEe2MJPrBGb943A" name="getClientSocket" method="_X8SZi4CxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8EXEoCxEe2MJPrBGb943A" type="_X76mEoCxEe2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7tKsICxEe2MJPrBGb943A" name="getInput" method="_X8TAkICxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8EXE4CxEe2MJPrBGb943A" type="_X74J0ICxEe2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X7tKsYCxEe2MJPrBGb943A" name="getOutput" method="_X8TAkoCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8EXFICxEe2MJPrBGb943A" type="_X75X8ICxEe2MJPrBGb943A" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X8DwAICxEe2MJPrBGb943A" name="setClient" method="_X8SZhYCxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8DwAYCxEe2MJPrBGb943A" name="cConn" type="_X76mEoCxEe2MJPrBGb943A"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_X8DwAoCxEe2MJPrBGb943A" name="setServer" method="_X8SZh4CxEe2MJPrBGb943A">
+                  <ownedParameter xmi:id="_X8EXEICxEe2MJPrBGb943A" name="sConn" type="_X76mEICxEe2MJPrBGb943A"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8UOsICxEe2MJPrBGb943A" name="" memberEnd="_X8UOsYCxEe2MJPrBGb943A _X8GzU4CxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8UOsYCxEe2MJPrBGb943A" name="" type="_X7kAwICxEe2MJPrBGb943A" association="_X8UOsICxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8U1wYCxEe2MJPrBGb943A" name="" memberEnd="_X8U1woCxEe2MJPrBGb943A _X8HaYYCxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8U1woCxEe2MJPrBGb943A" name="" type="_X7kAwICxEe2MJPrBGb943A" association="_X8U1wYCxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8Vc0YCxEe2MJPrBGb943A" name="" memberEnd="_X8Vc0oCxEe2MJPrBGb943A _X8IBcICxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8Vc0oCxEe2MJPrBGb943A" name="" type="_X7kAwICxEe2MJPrBGb943A" association="_X8Vc0YCxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8Vc1ICxEe2MJPrBGb943A" name="" memberEnd="_X8Vc1YCxEe2MJPrBGb943A _X8IBc4CxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8Vc1YCxEe2MJPrBGb943A" name="" type="_X7kAwICxEe2MJPrBGb943A" association="_X8Vc1ICxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8WD4YCxEe2MJPrBGb943A" name="" memberEnd="_X8WD4oCxEe2MJPrBGb943A _X8IogICxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8WD4oCxEe2MJPrBGb943A" name="" type="_X7kAwICxEe2MJPrBGb943A" association="_X8WD4YCxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8Wq8YCxEe2MJPrBGb943A" name="" memberEnd="_X8Wq8oCxEe2MJPrBGb943A _X8JPk4CxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8Wq8oCxEe2MJPrBGb943A" name="" type="_X7qucICxEe2MJPrBGb943A" association="_X8Wq8YCxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8Wq9ICxEe2MJPrBGb943A" name="" memberEnd="_X8Wq9YCxEe2MJPrBGb943A _X8J2oICxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8Wq9YCxEe2MJPrBGb943A" name="" type="_X7qucICxEe2MJPrBGb943A" association="_X8Wq9ICxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8XSAYCxEe2MJPrBGb943A" name="" memberEnd="_X8XSAoCxEe2MJPrBGb943A _X8J2ooCxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8XSAoCxEe2MJPrBGb943A" name="" type="_X7qucICxEe2MJPrBGb943A" association="_X8XSAYCxEe2MJPrBGb943A"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_X8XSBICxEe2MJPrBGb943A" name="" memberEnd="_X8XSBYCxEe2MJPrBGb943A _X8J2pICxEe2MJPrBGb943A">
+                <ownedEnd xmi:id="_X8XSBYCxEe2MJPrBGb943A" name="" type="_X7qucICxEe2MJPrBGb943A" association="_X8XSBICxEe2MJPrBGb943A"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_X7WlYICxEe2MJPrBGb943A" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_X7WlYYCxEe2MJPrBGb943A" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_X74J0ICxEe2MJPrBGb943A" name="DataInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_X75X8ICxEe2MJPrBGb943A" name="DataOutputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_X75_AYCxEe2MJPrBGb943A" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_X7WlYoCxEe2MJPrBGb943A" name="net">
+        <packagedElement xmi:type="uml:Class" xmi:id="_X76mEICxEe2MJPrBGb943A" name="ServerSocket"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_X76mEoCxEe2MJPrBGb943A" name="Socket"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_X7WlY4CxEe2MJPrBGb943A" name="com">
+      <packagedElement xmi:type="uml:Package" xmi:id="_X7WlZICxEe2MJPrBGb943A" name="dosse">
+        <packagedElement xmi:type="uml:Package" xmi:id="_X7WlZYCxEe2MJPrBGb943A" name="upnp">
+          <packagedElement xmi:type="uml:Class" xmi:id="_X77NIYCxEe2MJPrBGb943A" name="UPnP"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_X0UwUICxEe2MJPrBGb943A">
+      <eAnnotations xmi:id="_X0XzoICxEe2MJPrBGb943A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_X0Zo0ICxEe2MJPrBGb943A" base_Package="_Xh3uYICxEe2MJPrBGb943A">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_X74w4ICxEe2MJPrBGb943A" base_Element="_X74J0ICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X75_AICxEe2MJPrBGb943A" base_Element="_X75X8ICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X75_AoCxEe2MJPrBGb943A" base_Element="_X75_AYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X76mEYCxEe2MJPrBGb943A" base_Element="_X76mEICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X77NIICxEe2MJPrBGb943A" base_Element="_X76mEoCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X770MICxEe2MJPrBGb943A" base_Element="_X77NIYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X770MoCxEe2MJPrBGb943A" base_Element="_X770MYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X78bQYCxEe2MJPrBGb943A" base_Element="_X78bQICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8GMQICxEe2MJPrBGb943A" base_Element="_X8FlMICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8GzUICxEe2MJPrBGb943A" base_Element="_X8GMQYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8GzUoCxEe2MJPrBGb943A" base_Element="_X8GzUYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8HaYICxEe2MJPrBGb943A" base_Element="_X8GzU4CxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8HaY4CxEe2MJPrBGb943A" base_Element="_X8HaYYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8IBcoCxEe2MJPrBGb943A" base_Element="_X8IBcICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8IBdYCxEe2MJPrBGb943A" base_Element="_X8IBc4CxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8IogYCxEe2MJPrBGb943A" base_Element="_X8IogICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8JPkICxEe2MJPrBGb943A" base_Element="_X8IogoCxEe2MJPrBGb943A">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_X8JPkYCxEe2MJPrBGb943A" name="getUserName" method="_X8SZgICxEe2MJPrBGb943A">
+      <ownedParameter xmi:id="_X8JPkoCxEe2MJPrBGb943A" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8JPlICxEe2MJPrBGb943A" base_Element="_X8JPk4CxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8J2oYCxEe2MJPrBGb943A" base_Element="_X8J2oICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8J2o4CxEe2MJPrBGb943A" base_Element="_X8J2ooCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_X8KdsICxEe2MJPrBGb943A" base_Element="_X8J2pICxEe2MJPrBGb943A"/>
+  <uml:OpaqueBehavior xmi:id="_X8SZgICxEe2MJPrBGb943A" name="getUserName" specification="_X8JPkYCxEe2MJPrBGb943A">
+    <ownedParameter xmi:id="_X8SZgYCxEe2MJPrBGb943A" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return userName;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_X8U1wICxEe2MJPrBGb943A" base_Element="_X8UOsICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8Vc0ICxEe2MJPrBGb943A" base_Element="_X8U1wYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8Vc04CxEe2MJPrBGb943A" base_Element="_X8Vc0YCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8WD4ICxEe2MJPrBGb943A" base_Element="_X8Vc1ICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8Wq8ICxEe2MJPrBGb943A" base_Element="_X8WD4YCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8Wq84CxEe2MJPrBGb943A" base_Element="_X8Wq8YCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8XSAICxEe2MJPrBGb943A" base_Element="_X8Wq9ICxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8XSA4CxEe2MJPrBGb943A" base_Element="_X8XSAYCxEe2MJPrBGb943A"/>
+  <UMLLabProfile:Reference xmi:id="_X8X5EICxEe2MJPrBGb943A" base_Element="_X8XSBICxEe2MJPrBGb943A"/>
+</xmi:XMI>

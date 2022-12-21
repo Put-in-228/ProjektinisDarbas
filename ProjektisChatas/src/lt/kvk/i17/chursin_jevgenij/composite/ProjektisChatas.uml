@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_I10B0IEuEe2fWoq9BkNCVw" name="ProjektisChatas">
+    <eAnnotations xmi:id="_I46ZIIEuEe2fWoq9BkNCVw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_I46ZIYEuEe2fWoq9BkNCVw" source="codegen">
+        <details xmi:id="_I46ZIoEuEe2fWoq9BkNCVw" key="codegenDirectory" value="/ProjektisChatas/src"/>
+        <details xmi:id="_JVfncIEuEe2fWoq9BkNCVw" key="AssociatedSourceCode" value="/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/composite/GUIComponent.java;3368068082/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/composite/GUIGroup.java;2997699953/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/composite/JButtonObject.java;4093687371/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/composite/JFrameObject.java;985810784/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/composite/JPanelObject.java;2046690052/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/composite/JTableObject.java;4032716999/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/composite/JTextAreaObject.java;1744278448/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_JA7ssIEuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8TwIEuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8TwYEuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8TwoEuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8Tw4EuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8TxIEuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8TxYEuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8TxoEuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_JA8Tx4EuEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JAeZsIEuEe2fWoq9BkNCVw" name="lt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JAeZsYEuEe2fWoq9BkNCVw" name="kvk">
+        <packagedElement xmi:type="uml:Package" xmi:id="_JAfAwIEuEe2fWoq9BkNCVw" name="i17">
+          <packagedElement xmi:type="uml:Package" xmi:id="_JAfAwYEuEe2fWoq9BkNCVw" name="chursin_jevgenij">
+            <packagedElement xmi:type="uml:Package" xmi:id="_JAg18oEuEe2fWoq9BkNCVw" name="gui">
+              <packagedElement xmi:type="uml:Package" xmi:id="_JAg184EuEe2fWoq9BkNCVw" name="jframes">
+                <packagedElement xmi:type="uml:Class" xmi:id="_JDX8sYEuEe2fWoq9BkNCVw" name="Frame"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Package" xmi:id="_JAhdAIEuEe2fWoq9BkNCVw" name="jtables">
+                <packagedElement xmi:type="uml:Class" xmi:id="_JDYjwYEuEe2fWoq9BkNCVw" name="Table"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_JAlHYIEuEe2fWoq9BkNCVw" name="composite">
+              <packagedElement xmi:type="uml:Class" xmi:id="_JA5QcIEuEe2fWoq9BkNCVw" name="GUIComponent" isAbstract="true">
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpCcIEuEe2fWoq9BkNCVw" name="add" specification="_JDZK0YEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpCcYEuEe2fWoq9BkNCVw" name="component" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpCcoEuEe2fWoq9BkNCVw" name="remove" specification="_JDZx4IEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpCc4EuEe2fWoq9BkNCVw" name="component" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpCdIEuEe2fWoq9BkNCVw" name="get" specification="_JA860IEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpCdYEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDpCdoEuEe2fWoq9BkNCVw" type="_JA5QcIEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpCd4EuEe2fWoq9BkNCVw" name="getName" specification="_JA9h4IEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpCeIEuEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpCeYEuEe2fWoq9BkNCVw" name="getButton" specification="_JA-I8YEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpCeoEuEe2fWoq9BkNCVw" type="_JDVgcIEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpCe4EuEe2fWoq9BkNCVw" name="getFrame" specification="_JA-wAIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpCfIEuEe2fWoq9BkNCVw" type="_JDX8sYEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDppgIEuEe2fWoq9BkNCVw" name="getPane" specification="_JA-wAYEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDppgYEuEe2fWoq9BkNCVw" type="_JDXVoYEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDppgoEuEe2fWoq9BkNCVw" name="getTextArea" specification="_JA_XEIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDppg4EuEe2fWoq9BkNCVw" type="_JDXVo4EuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpphIEuEe2fWoq9BkNCVw" name="getTable" specification="_JA_XEYEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpphYEuEe2fWoq9BkNCVw" type="_JDYjwYEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>throw new UnsupportedOperationException();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JA860IEuEe2fWoq9BkNCVw" name="get" method="_JDpCdIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JA860YEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDZx4oEuEe2fWoq9BkNCVw" type="_JA5QcIEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JA9h4IEuEe2fWoq9BkNCVw" name="getName" visibility="package" method="_JDpCd4EuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JA-I8IEuEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JA-I8YEuEe2fWoq9BkNCVw" name="getButton" method="_JDpCeYEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDf4gIEuEe2fWoq9BkNCVw" type="_JDVgcIEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JA-wAIEuEe2fWoq9BkNCVw" name="getFrame" method="_JDpCe4EuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDgfkIEuEe2fWoq9BkNCVw" type="_JDX8sYEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JA-wAYEuEe2fWoq9BkNCVw" name="getPane" method="_JDppgIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDgfkYEuEe2fWoq9BkNCVw" type="_JDXVoYEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JA_XEIEuEe2fWoq9BkNCVw" name="getTextArea" method="_JDppgoEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDgfkoEuEe2fWoq9BkNCVw" type="_JDXVo4EuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JA_XEYEuEe2fWoq9BkNCVw" name="getTable" method="_JDpphIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDgfk4EuEe2fWoq9BkNCVw" type="_JDYjwYEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JDZK0YEuEe2fWoq9BkNCVw" name="add" method="_JDpCcIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDZK0oEuEe2fWoq9BkNCVw" name="component" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JDZx4IEuEe2fWoq9BkNCVw" name="remove" method="_JDpCcoEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDZx4YEuEe2fWoq9BkNCVw" name="component" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JBBzUIEuEe2fWoq9BkNCVw" name="GUIGroup">
+                <generalization xmi:id="_JDbnFYEuEe2fWoq9BkNCVw" general="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_JDkJ8IEuEe2fWoq9BkNCVw" name="buttons" visibility="package" type="_JA5QcIEuEe2fWoq9BkNCVw" isOrdered="true" association="_JDss0IEuEe2fWoq9BkNCVw">
+                  <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_JDkJ8YEuEe2fWoq9BkNCVw" value="*"/>
+                  <defaultValue xmi:type="uml:LiteralString" xmi:id="_JDkJ8oEuEe2fWoq9BkNCVw" value="new LinkedList&lt;>()"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDpphoEuEe2fWoq9BkNCVw" name="add" specification="_JDbnEIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDpph4EuEe2fWoq9BkNCVw" name="button" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>buttons.add(button);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDppiIEuEe2fWoq9BkNCVw" name="remove" specification="_JDbnEoEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDppiYEuEe2fWoq9BkNCVw" name="button" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>buttons.remove(button);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDppioEuEe2fWoq9BkNCVw" name="get" specification="_JBCaYIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDppi4EuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDppjIEuEe2fWoq9BkNCVw" type="_JA5QcIEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>for (GUIComponent v : buttons) {&#xD;
+			if (name.equals(v.getName())) {&#xD;
+				return v;&#xD;
+			}&#xD;
+		}&#xD;
+		&#xD;
+		return null;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JBCaYIEuEe2fWoq9BkNCVw" name="get" method="_JDppioEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JBCaYYEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDbnFIEuEe2fWoq9BkNCVw" type="_JA5QcIEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JDbnEIEuEe2fWoq9BkNCVw" name="add" method="_JDpphoEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDbnEYEuEe2fWoq9BkNCVw" name="button" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JDbnEoEuEe2fWoq9BkNCVw" name="remove" method="_JDppiIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDbnE4EuEe2fWoq9BkNCVw" name="button" type="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JBDogIEuEe2fWoq9BkNCVw" name="JButtonObject">
+                <generalization xmi:id="_JDcOIIEuEe2fWoq9BkNCVw" general="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_JDkxAYEuEe2fWoq9BkNCVw" name="name" visibility="package" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JDlYEYEuEe2fWoq9BkNCVw" name="button" isLeaf="true" type="_JDVgcIEuEe2fWoq9BkNCVw" isReadOnly="true" association="_JDtT4YEuEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDqQk4EuEe2fWoq9BkNCVw" name="JButtonObject" specification="_JDhGoIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDqQlIEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDqQlYEuEe2fWoq9BkNCVw" name="button" type="_JDVgcIEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDqQloEuEe2fWoq9BkNCVw" type="_JBDogIEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.name = name;&#xD;
+		this.button = button;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JDhGoIEuEe2fWoq9BkNCVw" name="JButtonObject" method="_JDqQk4EuEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_JDhGo4EuEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_JDhGpIEuEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_JDhGoYEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDhGooEuEe2fWoq9BkNCVw" name="button" type="_JDVgcIEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDhGpYEuEe2fWoq9BkNCVw" type="_JBDogIEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JBFdsIEuEe2fWoq9BkNCVw" name="JFrameObject">
+                <generalization xmi:id="_JDc1MIEuEe2fWoq9BkNCVw" general="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_JDlYFYEuEe2fWoq9BkNCVw" name="name" visibility="package" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JDl_I4EuEe2fWoq9BkNCVw" name="frame" isLeaf="true" type="_JDX8sYEuEe2fWoq9BkNCVw" isReadOnly="true" association="_JDtT5IEuEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDqQm4EuEe2fWoq9BkNCVw" name="JFrameObject" specification="_JDhtsIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDqQnIEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDqQnYEuEe2fWoq9BkNCVw" name="frame" type="_JDX8sYEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDqQnoEuEe2fWoq9BkNCVw" type="_JBFdsIEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.name = name;&#xD;
+		this.frame = frame;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JDhtsIEuEe2fWoq9BkNCVw" name="JFrameObject" method="_JDqQm4EuEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_JDhts4EuEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_JDhttIEuEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_JDhtsYEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDhtsoEuEe2fWoq9BkNCVw" name="frame" type="_JDX8sYEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDhttYEuEe2fWoq9BkNCVw" type="_JBFdsIEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JBGr0IEuEe2fWoq9BkNCVw" name="JPanelObject">
+                <generalization xmi:id="_JDdcQIEuEe2fWoq9BkNCVw" general="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_JDmmMYEuEe2fWoq9BkNCVw" name="name" visibility="package" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JDmmNYEuEe2fWoq9BkNCVw" name="panel" visibility="private" isLeaf="true" type="_JDXVoYEuEe2fWoq9BkNCVw" isReadOnly="true" association="_JDt68YEuEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDq3ooEuEe2fWoq9BkNCVw" name="JPanelObject" specification="_JDiUwIEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDq3o4EuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDq3pIEuEe2fWoq9BkNCVw" name="panel" type="_JDXVoYEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDq3pYEuEe2fWoq9BkNCVw" type="_JBGr0IEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.name = name;&#xD;
+		this.panel = panel;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDq3poEuEe2fWoq9BkNCVw" name="getPane" specification="_JBHS4IEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDq3p4EuEe2fWoq9BkNCVw" type="_JDXVoYEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>return panel;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JBHS4IEuEe2fWoq9BkNCVw" name="getPane" method="_JDq3poEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDiUxoEuEe2fWoq9BkNCVw" type="_JDXVoYEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_JDiUwIEuEe2fWoq9BkNCVw" name="JPanelObject" method="_JDq3ooEuEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_JDiUw4EuEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_JDiUxIEuEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_JDiUwYEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDiUwoEuEe2fWoq9BkNCVw" name="panel" type="_JDXVoYEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDiUxYEuEe2fWoq9BkNCVw" type="_JBGr0IEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JBIhAIEuEe2fWoq9BkNCVw" name="JTableObject">
+                <generalization xmi:id="_JDeDUIEuEe2fWoq9BkNCVw" general="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_JDnNQYEuEe2fWoq9BkNCVw" name="table" isLeaf="true" type="_JDYjwYEuEe2fWoq9BkNCVw" isReadOnly="true" association="_JDuiAYEuEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_JDnNRYEuEe2fWoq9BkNCVw" name="name" visibility="package" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDq3rIEuEe2fWoq9BkNCVw" name="JTableObject" specification="_JDi70IEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDq3rYEuEe2fWoq9BkNCVw" name="table" type="_JDYjwYEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDq3roEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDq3r4EuEe2fWoq9BkNCVw" type="_JBIhAIEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.table = table;&#xD;
+		this.name = name;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JDi70IEuEe2fWoq9BkNCVw" name="JTableObject" method="_JDq3rIEuEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_JDi704EuEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_JDi71IEuEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_JDi70YEuEe2fWoq9BkNCVw" name="table" type="_JDYjwYEuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDi70oEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDi71YEuEe2fWoq9BkNCVw" type="_JBIhAIEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_JBJvIIEuEe2fWoq9BkNCVw" name="JTextAreaObject">
+                <generalization xmi:id="_JDeqYIEuEe2fWoq9BkNCVw" general="_JA5QcIEuEe2fWoq9BkNCVw"/>
+                <ownedAttribute xmi:id="_JDn0UoEuEe2fWoq9BkNCVw" name="name" visibility="package" isLeaf="true" isReadOnly="true">
+                  <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                </ownedAttribute>
+                <ownedAttribute xmi:id="_JDobYIEuEe2fWoq9BkNCVw" name="textArea" isLeaf="true" type="_JDXVo4EuEe2fWoq9BkNCVw" isReadOnly="true" association="_JDuiBIEuEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_JDresoEuEe2fWoq9BkNCVw" name="JTextAreaObject" specification="_JDji4IEuEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_JDres4EuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDretIEuEe2fWoq9BkNCVw" name="textArea" type="_JDXVo4EuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDretYEuEe2fWoq9BkNCVw" type="_JBJvIIEuEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>this.name = name;&#xD;
+		this.textArea = textArea;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_JDji4IEuEe2fWoq9BkNCVw" name="JTextAreaObject" method="_JDresoEuEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_JDji44EuEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_JDji5IEuEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_JDji4YEuEe2fWoq9BkNCVw" name="name">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_JDji4oEuEe2fWoq9BkNCVw" name="textArea" type="_JDXVo4EuEe2fWoq9BkNCVw"/>
+                  <ownedParameter xmi:id="_JDji5YEuEe2fWoq9BkNCVw" type="_JBJvIIEuEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JDss0IEuEe2fWoq9BkNCVw" name="" memberEnd="_JDss0YEuEe2fWoq9BkNCVw _JDkJ8IEuEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_JDss0YEuEe2fWoq9BkNCVw" name="" type="_JBBzUIEuEe2fWoq9BkNCVw" association="_JDss0IEuEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JDtT4YEuEe2fWoq9BkNCVw" name="" memberEnd="_JDtT4oEuEe2fWoq9BkNCVw _JDlYEYEuEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_JDtT4oEuEe2fWoq9BkNCVw" name="" type="_JBDogIEuEe2fWoq9BkNCVw" association="_JDtT4YEuEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JDtT5IEuEe2fWoq9BkNCVw" name="" memberEnd="_JDtT5YEuEe2fWoq9BkNCVw _JDl_I4EuEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_JDtT5YEuEe2fWoq9BkNCVw" name="" type="_JBFdsIEuEe2fWoq9BkNCVw" association="_JDtT5IEuEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JDt68YEuEe2fWoq9BkNCVw" name="" memberEnd="_JDt68oEuEe2fWoq9BkNCVw _JDmmNYEuEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_JDt68oEuEe2fWoq9BkNCVw" name="" type="_JBGr0IEuEe2fWoq9BkNCVw" association="_JDt68YEuEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JDuiAYEuEe2fWoq9BkNCVw" name="" memberEnd="_JDuiAoEuEe2fWoq9BkNCVw _JDnNQYEuEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_JDuiAoEuEe2fWoq9BkNCVw" name="" type="_JBIhAIEuEe2fWoq9BkNCVw" association="_JDuiAYEuEe2fWoq9BkNCVw"/>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_JDuiBIEuEe2fWoq9BkNCVw" name="" memberEnd="_JDuiBYEuEe2fWoq9BkNCVw _JDobYIEuEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_JDuiBYEuEe2fWoq9BkNCVw" name="" type="_JBJvIIEuEe2fWoq9BkNCVw" association="_JDuiBIEuEe2fWoq9BkNCVw"/>
+              </packagedElement>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JAg18IEuEe2fWoq9BkNCVw" name="javax">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JAg18YEuEe2fWoq9BkNCVw" name="swing">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JDVgcIEuEe2fWoq9BkNCVw" name="JButton"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JDWukIEuEe2fWoq9BkNCVw" name="JFrame"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JDXVoYEuEe2fWoq9BkNCVw" name="JPanel"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_JDXVo4EuEe2fWoq9BkNCVw" name="JTextArea"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_JAm8kIEuEe2fWoq9BkNCVw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_JAnjoIEuEe2fWoq9BkNCVw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_JDaY8IEuEe2fWoq9BkNCVw" name="LinkedList"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_JDbAAYEuEe2fWoq9BkNCVw" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_I47AMIEuEe2fWoq9BkNCVw">
+      <eAnnotations xmi:id="_I49ccIEuEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_I4-DgIEuEe2fWoq9BkNCVw" base_Package="_I10B0IEuEe2fWoq9BkNCVw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Reference xmi:id="_JDWHgIEuEe2fWoq9BkNCVw" base_Element="_JDVgcIEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDXVoIEuEe2fWoq9BkNCVw" base_Element="_JDWukIEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDXVooEuEe2fWoq9BkNCVw" base_Element="_JDXVoYEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDX8sIEuEe2fWoq9BkNCVw" base_Element="_JDXVo4EuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDYjwIEuEe2fWoq9BkNCVw" base_Element="_JDX8sYEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDZK0IEuEe2fWoq9BkNCVw" base_Element="_JDYjwYEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDbAAIEuEe2fWoq9BkNCVw" base_Element="_JDaY8IEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDbAAoEuEe2fWoq9BkNCVw" base_Element="_JDbAAYEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDkxAIEuEe2fWoq9BkNCVw" base_Element="_JDkJ8IEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDkxAoEuEe2fWoq9BkNCVw" base_Element="_JDkxAYEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDkxA4EuEe2fWoq9BkNCVw" name="getName" visibility="package" method="_JDppjYEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDlYEIEuEe2fWoq9BkNCVw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDlYEoEuEe2fWoq9BkNCVw" base_Element="_JDlYEYEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDlYE4EuEe2fWoq9BkNCVw" name="getButton" method="_JDqQkYEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDlYFIEuEe2fWoq9BkNCVw" type="_JDVgcIEuEe2fWoq9BkNCVw" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDl_IIEuEe2fWoq9BkNCVw" base_Element="_JDlYFYEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDl_IYEuEe2fWoq9BkNCVw" name="getName" visibility="package" method="_JDqQl4EuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDl_IoEuEe2fWoq9BkNCVw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDl_JIEuEe2fWoq9BkNCVw" base_Element="_JDl_I4EuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDl_JYEuEe2fWoq9BkNCVw" name="getFrame" method="_JDqQmYEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDmmMIEuEe2fWoq9BkNCVw" type="_JDX8sYEuEe2fWoq9BkNCVw" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDmmMoEuEe2fWoq9BkNCVw" base_Element="_JDmmMYEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDmmM4EuEe2fWoq9BkNCVw" name="getName" visibility="package" method="_JDq3oIEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDmmNIEuEe2fWoq9BkNCVw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDnNQIEuEe2fWoq9BkNCVw" base_Element="_JDmmNYEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDnNQoEuEe2fWoq9BkNCVw" base_Element="_JDnNQYEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDnNQ4EuEe2fWoq9BkNCVw" name="getTable" method="_JDq3qIEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDnNRIEuEe2fWoq9BkNCVw" type="_JDYjwYEuEe2fWoq9BkNCVw" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDnNRoEuEe2fWoq9BkNCVw" base_Element="_JDnNRYEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDn0UIEuEe2fWoq9BkNCVw" name="getName" visibility="package" method="_JDq3qoEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDn0UYEuEe2fWoq9BkNCVw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDn0U4EuEe2fWoq9BkNCVw" base_Element="_JDn0UoEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDn0VIEuEe2fWoq9BkNCVw" name="getName" visibility="package" method="_JDq3sIEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDn0VYEuEe2fWoq9BkNCVw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_JDobYYEuEe2fWoq9BkNCVw" base_Element="_JDobYIEuEe2fWoq9BkNCVw">
+    <associatedElement xmi:type="uml:Operation" xmi:id="_JDobYoEuEe2fWoq9BkNCVw" name="getTextArea" method="_JDresIEuEe2fWoq9BkNCVw">
+      <ownedParameter xmi:id="_JDobY4EuEe2fWoq9BkNCVw" type="_JDXVo4EuEe2fWoq9BkNCVw" direction="return"/>
+    </associatedElement>
+  </UMLLabProfile:LegacyStyledElement>
+  <uml:OpaqueBehavior xmi:id="_JDppjYEuEe2fWoq9BkNCVw" name="getName" specification="_JDkxA4EuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDqQkIEuEe2fWoq9BkNCVw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return name;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDqQkYEuEe2fWoq9BkNCVw" name="getButton" specification="_JDlYE4EuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDqQkoEuEe2fWoq9BkNCVw" type="_JDVgcIEuEe2fWoq9BkNCVw" direction="return"/>
+    <language>java</language>
+    <body>return button;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDqQl4EuEe2fWoq9BkNCVw" name="getName" specification="_JDl_IYEuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDqQmIEuEe2fWoq9BkNCVw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return name;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDqQmYEuEe2fWoq9BkNCVw" name="getFrame" specification="_JDl_JYEuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDqQmoEuEe2fWoq9BkNCVw" type="_JDX8sYEuEe2fWoq9BkNCVw" direction="return"/>
+    <language>java</language>
+    <body>return frame;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDq3oIEuEe2fWoq9BkNCVw" name="getName" specification="_JDmmM4EuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDq3oYEuEe2fWoq9BkNCVw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return name;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDq3qIEuEe2fWoq9BkNCVw" name="getTable" specification="_JDnNQ4EuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDq3qYEuEe2fWoq9BkNCVw" type="_JDYjwYEuEe2fWoq9BkNCVw" direction="return"/>
+    <language>java</language>
+    <body>return this.table;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDq3qoEuEe2fWoq9BkNCVw" name="getName" specification="_JDn0UIEuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDq3q4EuEe2fWoq9BkNCVw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return this.name;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDq3sIEuEe2fWoq9BkNCVw" name="getName" specification="_JDn0VIEuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDq3sYEuEe2fWoq9BkNCVw" direction="return">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedParameter>
+    <language>java</language>
+    <body>return name;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <uml:OpaqueBehavior xmi:id="_JDresIEuEe2fWoq9BkNCVw" name="getTextArea" specification="_JDobYoEuEe2fWoq9BkNCVw">
+    <ownedParameter xmi:id="_JDresYEuEe2fWoq9BkNCVw" type="_JDXVo4EuEe2fWoq9BkNCVw" direction="return"/>
+    <language>java</language>
+    <body>return textArea;&#xD;
+	</body>
+  </uml:OpaqueBehavior>
+  <UMLLabProfile:Reference xmi:id="_JDtT4IEuEe2fWoq9BkNCVw" base_Element="_JDss0IEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDtT44EuEe2fWoq9BkNCVw" base_Element="_JDtT4YEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDt68IEuEe2fWoq9BkNCVw" base_Element="_JDtT5IEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDuiAIEuEe2fWoq9BkNCVw" base_Element="_JDt68YEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDuiA4EuEe2fWoq9BkNCVw" base_Element="_JDuiAYEuEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_JDvJEIEuEe2fWoq9BkNCVw" base_Element="_JDuiBIEuEe2fWoq9BkNCVw"/>
+</xmi:XMI>

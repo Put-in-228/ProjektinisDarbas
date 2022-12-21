@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_KsJfEIEzEe2fWoq9BkNCVw" name="ProjektisChatas">
+    <eAnnotations xmi:id="_KwIAIIEzEe2fWoq9BkNCVw" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_KwIAIYEzEe2fWoq9BkNCVw" source="codegen">
+        <details xmi:id="_KwIAIoEzEe2fWoq9BkNCVw" key="codegenDirectory" value="/ProjektisChatas/src"/>
+        <details xmi:id="_Kxdc4IEzEe2fWoq9BkNCVw" key="AssociatedSourceCode" value="/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/command/Command.java;2825955946/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/command/CommandGroup.java;2865851549/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/command/DisconnectClient.java;3214126039/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/command/MuteClient.java;1536185030/1;/ProjektisChatas/src/lt/kvk/i17/chursin_jevgenij/command/UnmuteClient.java;542410270/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_KwwSQIEzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSQYEzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSQoEzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSQ4EzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSRIEzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSRYEzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSRoEzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSR4EzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_KwwSSIEzEe2fWoq9BkNCVw">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_KwtO8IEzEe2fWoq9BkNCVw" name="lt">
+      <packagedElement xmi:type="uml:Package" xmi:id="_KwtO8YEzEe2fWoq9BkNCVw" name="kvk">
+        <packagedElement xmi:type="uml:Package" xmi:id="_KwtO8oEzEe2fWoq9BkNCVw" name="i17">
+          <packagedElement xmi:type="uml:Package" xmi:id="_KwtO84EzEe2fWoq9BkNCVw" name="chursin_jevgenij">
+            <packagedElement xmi:type="uml:Package" xmi:id="_Kwt2AIEzEe2fWoq9BkNCVw" name="command">
+              <packagedElement xmi:type="uml:Interface" xmi:id="_KwvrMIEzEe2fWoq9BkNCVw" name="Command">
+                <ownedOperation xmi:id="_KwwSSYEzEe2fWoq9BkNCVw" name="execute">
+                  <ownedParameter xmi:id="_KwwSSoEzEe2fWoq9BkNCVw" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_KwwSS4EzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_KwwSTIEzEe2fWoq9BkNCVw" name="CommandGroup">
+                <ownedAttribute xmi:id="_Kw9tpoEzEe2fWoq9BkNCVw" name="commands" visibility="package" type="_KwvrMIEzEe2fWoq9BkNCVw" association="_Kw-7wIEzEe2fWoq9BkNCVw">
+                  <qualifier xmi:id="_Kw-UsYEzEe2fWoq9BkNCVw">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </qualifier>
+                </ownedAttribute>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Kw-UsoEzEe2fWoq9BkNCVw" name="CommandGroup" specification="_Kww5UIEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kw-Us4EzEe2fWoq9BkNCVw" type="_KwwSTIEzEe2fWoq9BkNCVw" direction="return"/>
+                  <language>java</language>
+                  <body>commands = new HashMap();&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Kw-UtIEzEe2fWoq9BkNCVw" name="addCommand" specification="_Kw9GkoEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kw-UtYEzEe2fWoq9BkNCVw" name="command">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Kw-UtoEzEe2fWoq9BkNCVw" name="action" type="_KwvrMIEzEe2fWoq9BkNCVw"/>
+                  <language>java</language>
+                  <body>commands.put(command, action);&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Kw-Ut4EzEe2fWoq9BkNCVw" name="activateCommand" specification="_Kww5VIEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kw-UuIEzEe2fWoq9BkNCVw" name="command">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Kw-UuYEzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>if (commands.get(command.split(&quot; &quot;)[0]) == null) {&#xD;
+			return &quot;No such command found!&quot;;&#xD;
+		} else {&#xD;
+			return commands.get(command.split(&quot; &quot;)[0]).execute(command.split(&quot; &quot;)[1]);&#xD;
+		}&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_Kww5UIEzEe2fWoq9BkNCVw" name="CommandGroup" method="_Kw-UsoEzEe2fWoq9BkNCVw">
+                  <eAnnotations xmi:id="_Kww5UYEzEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+                    <details xmi:id="_Kww5UoEzEe2fWoq9BkNCVw" key="create"/>
+                  </eAnnotations>
+                  <ownedParameter xmi:id="_Kww5U4EzEe2fWoq9BkNCVw" type="_KwwSTIEzEe2fWoq9BkNCVw" direction="return"/>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Kww5VIEzEe2fWoq9BkNCVw" name="activateCommand" method="_Kw-Ut4EzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kww5VYEzEe2fWoq9BkNCVw" name="command">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Kww5VoEzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+                <ownedOperation xmi:id="_Kw9GkoEzEe2fWoq9BkNCVw" name="addCommand" method="_Kw-UtIEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kw9Gk4EzEe2fWoq9BkNCVw" name="command">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Kw9GlIEzEe2fWoq9BkNCVw" name="action" type="_KwvrMIEzEe2fWoq9BkNCVw"/>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_Kww5V4EzEe2fWoq9BkNCVw" name="DisconnectClient">
+                <interfaceRealization xmi:id="_Kw9to4EzEe2fWoq9BkNCVw" client="_Kww5V4EzEe2fWoq9BkNCVw" supplier="_KwvrMIEzEe2fWoq9BkNCVw" contract="_KwvrMIEzEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Kw-UuoEzEe2fWoq9BkNCVw" name="execute" specification="_KwxgYIEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kw-Uu4EzEe2fWoq9BkNCVw" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Kw-UvIEzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>ConnectedClientThread temp = ImportantObjects.getInstance().getObjectPool().findByUsername(userName);&#xD;
+		if (temp == null) {&#xD;
+			return &quot;No such client found!&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		temp.forceDisconnect();&#xD;
+		&#xD;
+		return &quot;Successfully kicked client!&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_KwxgYIEzEe2fWoq9BkNCVw" name="execute" method="_Kw-UuoEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_KwxgYYEzEe2fWoq9BkNCVw" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_KwxgYoEzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_KwxgZoEzEe2fWoq9BkNCVw" name="MuteClient">
+                <interfaceRealization xmi:id="_Kw9tpIEzEe2fWoq9BkNCVw" client="_KwxgZoEzEe2fWoq9BkNCVw" supplier="_KwvrMIEzEe2fWoq9BkNCVw" contract="_KwvrMIEzEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Kw-UvYEzEe2fWoq9BkNCVw" name="execute" specification="_KwyHcIEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kw-UvoEzEe2fWoq9BkNCVw" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Kw-Uv4EzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>ConnectedClientThread temp = ImportantObjects.getInstance().getObjectPool().findByUsername(userName);&#xD;
+		if (temp == null) {&#xD;
+			return &quot;No such client found!&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		temp.mute();&#xD;
+		&#xD;
+		return &quot;Successfully muted client!&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_KwyHcIEzEe2fWoq9BkNCVw" name="execute" method="_Kw-UvYEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_KwyHcYEzEe2fWoq9BkNCVw" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_KwyHcoEzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Class" xmi:id="_KwyHdoEzEe2fWoq9BkNCVw" name="UnmuteClient">
+                <interfaceRealization xmi:id="_Kw9tpYEzEe2fWoq9BkNCVw" client="_KwyHdoEzEe2fWoq9BkNCVw" supplier="_KwvrMIEzEe2fWoq9BkNCVw" contract="_KwvrMIEzEe2fWoq9BkNCVw"/>
+                <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_Kw-UwIEzEe2fWoq9BkNCVw" name="execute" specification="_KwyugIEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_Kw-UwYEzEe2fWoq9BkNCVw" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_Kw-UwoEzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <language>java</language>
+                  <body>ConnectedClientThread temp = ImportantObjects.getInstance().getObjectPool().findByUsername(userName);&#xD;
+		if (temp == null) {&#xD;
+			return &quot;No such client found!&quot;;&#xD;
+		}&#xD;
+		&#xD;
+		temp.unmute();&#xD;
+		&#xD;
+		return &quot;Successfully unmuted client!&quot;;&#xD;
+	</body>
+                </ownedBehavior>
+                <ownedOperation xmi:id="_KwyugIEzEe2fWoq9BkNCVw" name="execute" method="_Kw-UwIEzEe2fWoq9BkNCVw">
+                  <ownedParameter xmi:id="_KwyugYEzEe2fWoq9BkNCVw" name="userName">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                  <ownedParameter xmi:id="_KwyugoEzEe2fWoq9BkNCVw" direction="return">
+                    <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+                  </ownedParameter>
+                </ownedOperation>
+              </packagedElement>
+              <packagedElement xmi:type="uml:Association" xmi:id="_Kw-7wIEzEe2fWoq9BkNCVw" name="" memberEnd="_Kw-7wYEzEe2fWoq9BkNCVw _Kw9tpoEzEe2fWoq9BkNCVw">
+                <ownedEnd xmi:id="_Kw-7wYEzEe2fWoq9BkNCVw" name="" type="_KwwSTIEzEe2fWoq9BkNCVw" association="_Kw-7wIEzEe2fWoq9BkNCVw"/>
+              </packagedElement>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_KwudEIEzEe2fWoq9BkNCVw" name="object_pool">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Kw9GlYEzEe2fWoq9BkNCVw" name="ConnectedClientThread"/>
+            </packagedElement>
+            <packagedElement xmi:type="uml:Package" xmi:id="_KwudEYEzEe2fWoq9BkNCVw" name="singleton">
+              <packagedElement xmi:type="uml:Class" xmi:id="_Kw9toYEzEe2fWoq9BkNCVw" name="ImportantObjects"/>
+            </packagedElement>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Kwt2AYEzEe2fWoq9BkNCVw" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_Kwt2AoEzEe2fWoq9BkNCVw" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Kw8fgIEzEe2fWoq9BkNCVw" name="HashMap"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_Kw9GkIEzEe2fWoq9BkNCVw" name="Map"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_KwdXUIEzEe2fWoq9BkNCVw">
+      <eAnnotations xmi:id="_KwdXUYEzEe2fWoq9BkNCVw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Kwd-YIEzEe2fWoq9BkNCVw" base_Package="_KsJfEIEzEe2fWoq9BkNCVw">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KwxgY4EzEe2fWoq9BkNCVw" base_Element="_KwxgYIEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_KwxgZIEzEe2fWoq9BkNCVw" base_Element="_KwxgYIEzEe2fWoq9BkNCVw">
+    <annotations xmi:id="_KwxgZYEzEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_KwyHc4EzEe2fWoq9BkNCVw" base_Element="_KwyHcIEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_KwyHdIEzEe2fWoq9BkNCVw" base_Element="_KwyHcIEzEe2fWoq9BkNCVw">
+    <annotations xmi:id="_KwyHdYEzEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Kwyug4EzEe2fWoq9BkNCVw" base_Element="_KwyugIEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Annotations xmi:id="_KwyuhIEzEe2fWoq9BkNCVw" base_Element="_KwyugIEzEe2fWoq9BkNCVw">
+    <annotations xmi:id="_KwyuhYEzEe2fWoq9BkNCVw" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_Kw8fgYEzEe2fWoq9BkNCVw" base_Element="_Kw8fgIEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_Kw9GkYEzEe2fWoq9BkNCVw" base_Element="_Kw9GkIEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_Kw9toIEzEe2fWoq9BkNCVw" base_Element="_Kw9GlYEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_Kw9tooEzEe2fWoq9BkNCVw" base_Element="_Kw9toYEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_Kw-UsIEzEe2fWoq9BkNCVw" base_Element="_Kw9tpoEzEe2fWoq9BkNCVw"/>
+  <UMLLabProfile:Reference xmi:id="_Kw-7woEzEe2fWoq9BkNCVw" base_Element="_Kw-7wIEzEe2fWoq9BkNCVw"/>
+</xmi:XMI>

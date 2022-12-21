@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_NA4pMIEwEe2fWoq9BkNCVw">
+  <modelElement href="ProjektisChatas.uml#_NHSMIIEwEe2fWoq9BkNCVw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NIgUIIEwEe2fWoq9BkNCVw" sourceAnchor="0.0,29.0" targetAnchor="395.0,262.0" target="_NIjXi4EwEe2fWoq9BkNCVw" source="_NIg7NIEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NH2z4IEwEe2fWoq9BkNCVw"/>
+    <stereotypes xmi:id="_NIgUIYEwEe2fWoq9BkNCVw" name="Reference">
+      <modelElement href="ProjektisChatas.uml#_NH2z4oEwEe2fWoq9BkNCVw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NIgUIoEwEe2fWoq9BkNCVw" text="">
+      <visualProperties xmi:id="_Nf4SVIEwEe2fWoq9BkNCVw" position="-29.0,-1.9999999999999858"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NIgUI4EwEe2fWoq9BkNCVw" aggregationKind="NONE" name="">
+      <modelElement href="ProjektisChatas.uml#_NH2z4YEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf4SU4EwEe2fWoq9BkNCVw" position="-55.99999999999999,-17.0"/>
+      <visibility xmi:id="_NIgUJIEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIg7MIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NIg7MYEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="roomSpace" navigable="true">
+      <modelElement href="ProjektisChatas.uml#_NHzwkIEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf4SVYEwEe2fWoq9BkNCVw" position="-5.0,-16.0"/>
+      <visibility xmi:id="_NIg7MoEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIg7M4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NIiJUIEwEe2fWoq9BkNCVw" source="_NIjXi4EwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NH3a94EwEe2fWoq9BkNCVw"/>
+    <stereotypes xmi:id="_NIiwY4EwEe2fWoq9BkNCVw" name="Reference">
+      <modelElement href="ProjektisChatas.uml#_NH4CAIEwEe2fWoq9BkNCVw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NIiwYIEwEe2fWoq9BkNCVw" text=""/>
+    <sourceRole xmi:id="_NIiwYYEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="">
+      <modelElement href="ProjektisChatas.uml#_NH3a-IEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIiwZYEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIiwZIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NIiwYoEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="server" navigable="true">
+      <modelElement href="ProjektisChatas.uml#_NH0Xp4EwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIiwZ4EwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIiwZoEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NIjXcIEwEe2fWoq9BkNCVw" sourceAnchor="395.0,139.0" targetAnchor="123.0,108.0" target="_NIpeEIEwEe2fWoq9BkNCVw" source="_NIjXi4EwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NH2z5oEwEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_U-RWgIEwEe2fWoq9BkNCVw" sourceX="302" targetY="149"/>
+    <stereotypes xmi:id="_NIjXcYEwEe2fWoq9BkNCVw" name="Reference">
+      <modelElement href="ProjektisChatas.uml#_NH3a8IEwEe2fWoq9BkNCVw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NIjXcoEwEe2fWoq9BkNCVw" text="">
+      <visualProperties xmi:id="_Nf45YIEwEe2fWoq9BkNCVw" position="-81.5,-23.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NIjXc4EwEe2fWoq9BkNCVw" aggregationKind="NONE" name="">
+      <modelElement href="ProjektisChatas.uml#_NH2z54EwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf4SVoEwEe2fWoq9BkNCVw" position="18.78125,-57.5"/>
+      <visibility xmi:id="_NIjXdIEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIjXdYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NIjXdoEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="roomFull" navigable="true">
+      <modelElement href="ProjektisChatas.uml#_NHzwlIEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf45YYEwEe2fWoq9BkNCVw" position="-75.5,52.5"/>
+      <visibility xmi:id="_NIjXd4EwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIjXeIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NIjXeYEwEe2fWoq9BkNCVw" sourceAnchor="198.0,0.0" targetAnchor="0.0,54.0" target="_NIpeEIEwEe2fWoq9BkNCVw" source="_NIjXi4EwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NH3a8YEwEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_U-RWgYEwEe2fWoq9BkNCVw" sourceY="-64" targetX="-376"/>
+    <stereotypes xmi:id="_NIjXeoEwEe2fWoq9BkNCVw" name="Reference">
+      <modelElement href="ProjektisChatas.uml#_NH3a84EwEe2fWoq9BkNCVw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NIjXe4EwEe2fWoq9BkNCVw" text="">
+      <visualProperties xmi:id="_Nf45Y4EwEe2fWoq9BkNCVw" position="133.9,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NIjXfIEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="">
+      <modelElement href="ProjektisChatas.uml#_NH3a8oEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf45YoEwEe2fWoq9BkNCVw" position="1.5,-58.333333333333314"/>
+      <visibility xmi:id="_NIjXfYEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIjXfoEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NIjXf4EwEe2fWoq9BkNCVw" aggregationKind="NONE" name="roomNotFull" navigable="true">
+      <modelElement href="ProjektisChatas.uml#_NH0XoYEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf5gcIEwEe2fWoq9BkNCVw" position="-169.625,-57.0"/>
+      <visibility xmi:id="_NIjXgIEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIjXgYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NIjXgoEwEe2fWoq9BkNCVw" sourceAnchor="228.0,0.0" targetAnchor="0.0,84.0" target="_NIpeEIEwEe2fWoq9BkNCVw" source="_NIjXi4EwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NH3a9IEwEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_U-RWgoEwEe2fWoq9BkNCVw" sourceY="-34" targetX="-346"/>
+    <stereotypes xmi:id="_NIjXg4EwEe2fWoq9BkNCVw" name="Reference">
+      <modelElement href="ProjektisChatas.uml#_NH3a9oEwEe2fWoq9BkNCVw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NIjXhIEwEe2fWoq9BkNCVw" text="">
+      <visualProperties xmi:id="_Nf5gcoEwEe2fWoq9BkNCVw" position="135.38888888888886,2.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NIjXhYEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="">
+      <modelElement href="ProjektisChatas.uml#_NH3a9YEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf5gcYEwEe2fWoq9BkNCVw" position="185.28125,-31.99999999999997"/>
+      <visibility xmi:id="_NIjXhoEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIjXh4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NIjXiIEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="roomState" navigable="true">
+      <modelElement href="ProjektisChatas.uml#_NH0Xo4EwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf5gc4EwEe2fWoq9BkNCVw" position="-138.7,2.0"/>
+      <visibility xmi:id="_NIjXiYEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIjXioEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_NImawIEwEe2fWoq9BkNCVw" sourceAnchor="0.0,53.0" targetAnchor="195.0,278.0" target="_NIjXi4EwEe2fWoq9BkNCVw" source="_NIoP8IEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NH2z44EwEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_U-QvcoEwEe2fWoq9BkNCVw" sourceX="-253" targetX="1" targetY="234"/>
+    <stereotypes xmi:id="_NImaxYEwEe2fWoq9BkNCVw" name="Reference">
+      <modelElement href="ProjektisChatas.uml#_NH2z5YEwEe2fWoq9BkNCVw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_NImawoEwEe2fWoq9BkNCVw" text="">
+      <visualProperties xmi:id="_Nf6HgYEwEe2fWoq9BkNCVw" position="153.0,-18.999999999999943"/>
+    </nameVisual>
+    <sourceRole xmi:id="_NImaw4EwEe2fWoq9BkNCVw" aggregationKind="NONE" name="">
+      <modelElement href="ProjektisChatas.uml#_NH2z5IEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf6HgIEwEe2fWoq9BkNCVw" position="-59.00000000000001,-38.0"/>
+      <visibility xmi:id="_NInB0YEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NInB0IEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_NImaxIEwEe2fWoq9BkNCVw" aggregationKind="NONE" name="roomSpace" navigable="true">
+      <modelElement href="ProjektisChatas.uml#_NHzwkoEwEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_Nf6HgoEwEe2fWoq9BkNCVw" position="107.0,197.99999999999994"/>
+      <visibility xmi:id="_NInB04EwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NInB0oEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NImawYEwEe2fWoq9BkNCVw" sourceAnchor="430.0,54.0" targetAnchor="153.0,108.0" dashed="true" superClass="_NIpeEIEwEe2fWoq9BkNCVw" subClass="_NIoP8IEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NHvfIYEwEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_U-Qvc4EwEe2fWoq9BkNCVw" sourceX="16" targetX="169" targetY="523"/>
+    <bendpoints xmi:id="_U-QvdIEwEe2fWoq9BkNCVw" sourceX="16" sourceY="-310" targetX="169" targetY="213"/>
+    <bendpoints xmi:id="_U-QvdYEwEe2fWoq9BkNCVw" sourceX="-153" sourceY="-310" targetY="213"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_NInB1YEwEe2fWoq9BkNCVw" sourceAnchor="190.0,0.0" targetAnchor="153.0,108.0" dashed="true" superClass="_NIpeEIEwEe2fWoq9BkNCVw" subClass="_NIg7NIEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NHuRAYEwEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_U-QvcIEwEe2fWoq9BkNCVw" sourceY="-30" targetX="-62" targetY="213"/>
+    <bendpoints xmi:id="_U-QvcYEwEe2fWoq9BkNCVw" sourceX="62" sourceY="-30" targetY="213"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NIg7NIEwEe2fWoq9BkNCVw" name="RoomFull" associationsOut="_NIgUIIEwEe2fWoq9BkNCVw" generalizations="_NInB1YEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NHXEoIEwEe2fWoq9BkNCVw"/>
+    <visualProperties xmi:id="_NIg7NYEwEe2fWoq9BkNCVw" position="102.0,31.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NIg7NoEwEe2fWoq9BkNCVw" label="+"/>
+    <attributes xmi:id="_NIg7N4EwEe2fWoq9BkNCVw" name="roomSpace">
+      <modelElement href="ProjektisChatas.uml#_NHzwkIEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIg7OIEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NHzwkYEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIg7OYEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIg7OoEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_NIg7O4EwEe2fWoq9BkNCVw" name="RoomSpace">
+        <modelElement href="ProjektisChatas.uml#_NHaH8IEwEe2fWoq9BkNCVw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NIg7PIEwEe2fWoq9BkNCVw" name="passCurrentSpace">
+      <modelElement href="ProjektisChatas.uml#_NHYSwIEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIg7PYEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NHYSwoEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NIg7PoEwEe2fWoq9BkNCVw" name="Annotations">
+        <modelElement href="ProjektisChatas.uml#_NHYSw4EwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIg7P4EwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIg7QIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIg7QYEwEe2fWoq9BkNCVw" name="currentSpace">
+        <modelElement href="ProjektisChatas.uml#_NHYSwYEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIg7QoEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIg7Q4EwEe2fWoq9BkNCVw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIg7RIEwEe2fWoq9BkNCVw" name="RoomFull">
+      <modelElement href="ProjektisChatas.uml#_NHuRAoEwEe2fWoq9BkNCVw"/>
+      <keywords xmi:id="_NIg7RYEwEe2fWoq9BkNCVw" keyword="create"/>
+      <visibility xmi:id="_NIg7RoEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIg7R4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NIg7SIEwEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_NHuRBoEwEe2fWoq9BkNCVw"/>
+        <type xmi:id="_NIg7SYEwEe2fWoq9BkNCVw" name="RoomFull">
+          <modelElement href="ProjektisChatas.uml#_NHXEoIEwEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NIg7SoEwEe2fWoq9BkNCVw" name="roomSpace">
+        <modelElement href="ProjektisChatas.uml#_NHuRA4EwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIg7S4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIg7TIEwEe2fWoq9BkNCVw" name="RoomSpace">
+          <modelElement href="ProjektisChatas.uml#_NHaH8IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIg7TYEwEe2fWoq9BkNCVw" name="acceptConnections">
+      <modelElement href="ProjektisChatas.uml#_NHx7YIEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIg7ToEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NHx7YoEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NIg7T4EwEe2fWoq9BkNCVw" name="Annotations">
+        <modelElement href="ProjektisChatas.uml#_NHx7Y4EwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIg7UIEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIg7UYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIg7UoEwEe2fWoq9BkNCVw" name="server">
+        <modelElement href="ProjektisChatas.uml#_NHx7YYEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIg7U4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIg7VIEwEe2fWoq9BkNCVw" name="Soketas">
+          <modelElement href="ProjektisChatas.uml#_NHtp8IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NIoP8IEwEe2fWoq9BkNCVw" name="RoomNotFull" associationsOut="_NImawIEwEe2fWoq9BkNCVw" generalizations="_NImawYEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NHY50IEwEe2fWoq9BkNCVw"/>
+    <visualProperties xmi:id="_NIoP8YEwEe2fWoq9BkNCVw" position="77.0,257.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NIoP8oEwEe2fWoq9BkNCVw" label="+"/>
+    <attributes xmi:id="_NIoP84EwEe2fWoq9BkNCVw" name="roomSpace">
+      <modelElement href="ProjektisChatas.uml#_NHzwkoEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIoP9IEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NHzwk4EwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIoP9YEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIoP9oEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_NIoP94EwEe2fWoq9BkNCVw" name="RoomSpace">
+        <modelElement href="ProjektisChatas.uml#_NHaH8IEwEe2fWoq9BkNCVw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NIoP-IEwEe2fWoq9BkNCVw" name="passCurrentSpace">
+      <modelElement href="ProjektisChatas.uml#_NHY50YEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIoP-YEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NHZg4IEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NIoP-oEwEe2fWoq9BkNCVw" name="Annotations">
+        <modelElement href="ProjektisChatas.uml#_NHZg4YEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIoP-4EwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIoP_IEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIoP_YEwEe2fWoq9BkNCVw" name="currentSpace">
+        <modelElement href="ProjektisChatas.uml#_NHY50oEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIoP_oEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIoP_4EwEe2fWoq9BkNCVw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIoQAIEwEe2fWoq9BkNCVw" name="RoomNotFull">
+      <modelElement href="ProjektisChatas.uml#_NHvfIoEwEe2fWoq9BkNCVw"/>
+      <keywords xmi:id="_NIoQAYEwEe2fWoq9BkNCVw" keyword="create"/>
+      <visibility xmi:id="_NIoQAoEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIoQA4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NIoQBIEwEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_NHvfJoEwEe2fWoq9BkNCVw"/>
+        <type xmi:id="_NIoQBYEwEe2fWoq9BkNCVw" name="RoomNotFull">
+          <modelElement href="ProjektisChatas.uml#_NHY50IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NIoQBoEwEe2fWoq9BkNCVw" name="roomSpace">
+        <modelElement href="ProjektisChatas.uml#_NHvfI4EwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIoQB4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIoQCIEwEe2fWoq9BkNCVw" name="RoomSpace">
+          <modelElement href="ProjektisChatas.uml#_NHaH8IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIoQCYEwEe2fWoq9BkNCVw" name="acceptConnections">
+      <modelElement href="ProjektisChatas.uml#_NHyicIEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIoQCoEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NHyicoEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_NIoQC4EwEe2fWoq9BkNCVw" name="Annotations">
+        <modelElement href="ProjektisChatas.uml#_NHyic4EwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIoQDIEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIoQDYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIoQDoEwEe2fWoq9BkNCVw" name="server">
+        <modelElement href="ProjektisChatas.uml#_NHyicYEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIoQD4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIoQEIEwEe2fWoq9BkNCVw" name="Soketas">
+          <modelElement href="ProjektisChatas.uml#_NHtp8IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_NIjXi4EwEe2fWoq9BkNCVw" name="RoomSpace" associationsIn="_NIgUIIEwEe2fWoq9BkNCVw _NImawIEwEe2fWoq9BkNCVw" associationsOut="_NIiJUIEwEe2fWoq9BkNCVw _NIjXcIEwEe2fWoq9BkNCVw _NIjXeYEwEe2fWoq9BkNCVw _NIjXgoEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NHaH8IEwEe2fWoq9BkNCVw"/>
+    <visualProperties xmi:id="_NIj-gIEwEe2fWoq9BkNCVw" position="-373.0,-202.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NIj-gYEwEe2fWoq9BkNCVw" label="+"/>
+    <attributes xmi:id="_NIj-goEwEe2fWoq9BkNCVw" name="roomFull">
+      <modelElement href="ProjektisChatas.uml#_NHzwlIEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIj-g4EwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NH0XoIEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIj-hIEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-hYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_NIj-hoEwEe2fWoq9BkNCVw" name="RoomSpaceState">
+        <modelElement href="ProjektisChatas.uml#_NHb9IIEwEe2fWoq9BkNCVw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NIj-h4EwEe2fWoq9BkNCVw" name="roomNotFull">
+      <modelElement href="ProjektisChatas.uml#_NH0XoYEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIj-iIEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NH0XooEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIj-iYEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-ioEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_NIj-i4EwEe2fWoq9BkNCVw" name="RoomSpaceState">
+        <modelElement href="ProjektisChatas.uml#_NHb9IIEwEe2fWoq9BkNCVw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NIj-jIEwEe2fWoq9BkNCVw" name="roomState">
+      <modelElement href="ProjektisChatas.uml#_NH0Xo4EwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIj-jYEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NH0XpIEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIj-joEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-j4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_NIj-kIEwEe2fWoq9BkNCVw" name="RoomSpaceState">
+        <modelElement href="ProjektisChatas.uml#_NHb9IIEwEe2fWoq9BkNCVw"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NIj-kYEwEe2fWoq9BkNCVw" name="chatRoomSpace">
+      <modelElement href="ProjektisChatas.uml#_NH0XpYEwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIj-koEwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NH0XpoEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIj-k4EwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-lIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_NIj-lYEwEe2fWoq9BkNCVw" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_NIj-loEwEe2fWoq9BkNCVw" name="server">
+      <modelElement href="ProjektisChatas.uml#_NH0Xp4EwEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_NIj-l4EwEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_NH0-sIEwEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_NIj-mIEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-mYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_NIj-moEwEe2fWoq9BkNCVw" name="Soketas">
+        <modelElement href="ProjektisChatas.uml#_NHtp8IEwEe2fWoq9BkNCVw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_NIj-m4EwEe2fWoq9BkNCVw" name="getRoomSpace">
+      <modelElement href="ProjektisChatas.uml#_NHaH8YEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIj-nIEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-nYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NIj-noEwEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_NHaH8oEwEe2fWoq9BkNCVw"/>
+        <type xmi:id="_NIj-n4EwEe2fWoq9BkNCVw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NIj-oIEwEe2fWoq9BkNCVw" name="acceptConnections">
+      <modelElement href="ProjektisChatas.uml#_NHavAIEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIj-oYEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIj-ooEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_NIj-o4EwEe2fWoq9BkNCVw" name="passCurrentSpace">
+      <modelElement href="ProjektisChatas.uml#_NHavAYEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIj-pIEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIj-pYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIj-poEwEe2fWoq9BkNCVw" name="currentSpace">
+        <modelElement href="ProjektisChatas.uml#_NHavAoEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIj-p4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIj-qIEwEe2fWoq9BkNCVw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIj-qYEwEe2fWoq9BkNCVw" name="getFullState">
+      <modelElement href="ProjektisChatas.uml#_NHavA4EwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIj-qoEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-q4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NIj-rIEwEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_NHwtQ4EwEe2fWoq9BkNCVw"/>
+        <type xmi:id="_NIj-rYEwEe2fWoq9BkNCVw" name="RoomSpaceState">
+          <modelElement href="ProjektisChatas.uml#_NHb9IIEwEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NIj-roEwEe2fWoq9BkNCVw" name="getNotFullState">
+      <modelElement href="ProjektisChatas.uml#_NHavBIEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIj-r4EwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-sIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NIj-sYEwEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_NHwtRIEwEe2fWoq9BkNCVw"/>
+        <type xmi:id="_NIj-soEwEe2fWoq9BkNCVw" name="RoomSpaceState">
+          <modelElement href="ProjektisChatas.uml#_NHb9IIEwEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_NIj-s4EwEe2fWoq9BkNCVw" name="setRoomState">
+      <modelElement href="ProjektisChatas.uml#_NHwtQYEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIj-tIEwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-tYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIj-toEwEe2fWoq9BkNCVw" name="newRoomState">
+        <modelElement href="ProjektisChatas.uml#_NHwtQoEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIj-t4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIj-uIEwEe2fWoq9BkNCVw" name="RoomSpaceState">
+          <modelElement href="ProjektisChatas.uml#_NHb9IIEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIj-uYEwEe2fWoq9BkNCVw" name="RoomSpace">
+      <modelElement href="ProjektisChatas.uml#_NHyidYEwEe2fWoq9BkNCVw"/>
+      <keywords xmi:id="_NIj-uoEwEe2fWoq9BkNCVw" keyword="create"/>
+      <visibility xmi:id="_NIj-u4EwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIj-vIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_NIj-vYEwEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_NHyieYEwEe2fWoq9BkNCVw"/>
+        <type xmi:id="_NIj-voEwEe2fWoq9BkNCVw" name="RoomSpace">
+          <modelElement href="ProjektisChatas.uml#_NHaH8IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_NIj-v4EwEe2fWoq9BkNCVw" name="server">
+        <modelElement href="ProjektisChatas.uml#_NHyidoEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIj-wIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIj-wYEwEe2fWoq9BkNCVw" name="Soketas">
+          <modelElement href="ProjektisChatas.uml#_NHtp8IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIj-woEwEe2fWoq9BkNCVw" name="setUpPoolObject">
+      <modelElement href="ProjektisChatas.uml#_NHzJgIEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIj-w4EwEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_NIj-xIEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIj-xYEwEe2fWoq9BkNCVw" name="conn">
+        <modelElement href="ProjektisChatas.uml#_NHzJgYEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIj-xoEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIj-x4EwEe2fWoq9BkNCVw" name="Socket">
+          <modelElement href="ProjektisChatas.uml#_NHu4EoEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_NIpeEIEwEe2fWoq9BkNCVw" name="RoomSpaceState" associationsIn="_NIjXcIEwEe2fWoq9BkNCVw _NIjXeYEwEe2fWoq9BkNCVw _NIjXgoEwEe2fWoq9BkNCVw" subclassedBy="_NImawYEwEe2fWoq9BkNCVw _NInB1YEwEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_NHb9IIEwEe2fWoq9BkNCVw"/>
+    <visualProperties xmi:id="_NIpeEYEwEe2fWoq9BkNCVw" position="201.0,-320.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_NIpeEoEwEe2fWoq9BkNCVw" label="+"/>
+    <operations xmi:id="_NIpeE4EwEe2fWoq9BkNCVw" name="passCurrentSpace">
+      <modelElement href="ProjektisChatas.uml#_NHb9IYEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIpeFIEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIpeFYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIpeFoEwEe2fWoq9BkNCVw" name="currentSpace">
+        <modelElement href="ProjektisChatas.uml#_NHb9IoEwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIpeF4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIpeGIEwEe2fWoq9BkNCVw" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_NIpeGYEwEe2fWoq9BkNCVw" name="acceptConnections">
+      <modelElement href="ProjektisChatas.uml#_NHzJgoEwEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_NIpeGoEwEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_NIpeG4EwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_NIpeHIEwEe2fWoq9BkNCVw" name="server">
+        <modelElement href="ProjektisChatas.uml#_NHzJg4EwEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_NIpeHYEwEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_NIpeHoEwEe2fWoq9BkNCVw" name="Soketas">
+          <modelElement href="ProjektisChatas.uml#_NHtp8IEwEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_WHs5MIEvEe2fWoq9BkNCVw">
+  <modelElement href="ProjektisChatas.uml#_WOePkoEvEe2fWoq9BkNCVw"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_WPWZUIEvEe2fWoq9BkNCVw" sourceAnchor="441.0,77.0" targetAnchor="174.0,115.0" target="_WPY1kIEvEe2fWoq9BkNCVw" source="_WPWZWYEvEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_WO4fQIEvEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_WZ1LAIEvEe2fWoq9BkNCVw" sourceX="247" targetY="132"/>
+    <stereotypes xmi:id="_WPWZUYEvEe2fWoq9BkNCVw" name="Reference">
+      <modelElement href="ProjektisChatas.uml#_WO4fQoEvEe2fWoq9BkNCVw"/>
+    </stereotypes>
+    <nameVisual xmi:id="_WPWZUoEvEe2fWoq9BkNCVw" text="">
+      <visualProperties xmi:id="_WZ1yEoEvEe2fWoq9BkNCVw" position="-83.0,-0.5"/>
+    </nameVisual>
+    <sourceRole xmi:id="_WPWZU4EvEe2fWoq9BkNCVw" aggregationKind="NONE" name="">
+      <modelElement href="ProjektisChatas.uml#_WO4fQYEvEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_WZ1yEYEvEe2fWoq9BkNCVw" position="42.0,-11.5"/>
+      <visibility xmi:id="_WPWZVIEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPWZVYEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_WPWZVoEvEe2fWoq9BkNCVw" aggregationKind="NONE" name="criterias" navigable="true">
+      <modelElement href="ProjektisChatas.uml#_WO2qEoEvEe2fWoq9BkNCVw"/>
+      <visualProperties xmi:id="_WZ2ZIIEvEe2fWoq9BkNCVw" position="38.0,120.5"/>
+      <visibility xmi:id="_WPWZV4EvEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_WPWZWIEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_WPeVIIEvEe2fWoq9BkNCVw" sourceAnchor="411.0,69.0" targetAnchor="204.0,115.0" dashed="true" superClass="_WPY1kIEvEe2fWoq9BkNCVw" subClass="_WPe8MIEvEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_WO004IEvEe2fWoq9BkNCVw"/>
+    <bendpoints xmi:id="_WZ1yEIEvEe2fWoq9BkNCVw" sourceX="292" targetY="348"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WPWZWYEvEe2fWoq9BkNCVw" name="CriteriaGroup" associationsOut="_WPWZUIEvEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_WOmyc4EvEe2fWoq9BkNCVw"/>
+    <visualProperties xmi:id="_WPWZWoEvEe2fWoq9BkNCVw" position="30.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WPWZW4EvEe2fWoq9BkNCVw" label="+"/>
+    <attributes xmi:id="_WPWZXIEvEe2fWoq9BkNCVw" defaultValue="new LinkedList&lt;>()" name="criterias">
+      <modelElement href="ProjektisChatas.uml#_WO2qEoEvEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_WPWZXYEvEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_WO3RIIEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_WPWZXoEvEe2fWoq9BkNCVw" label="~"/>
+      <cardinality xmi:id="_WPWZX4EvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_WPWZYIEvEe2fWoq9BkNCVw" name="Criteria">
+        <modelElement href="ProjektisChatas.uml#_WOjIEIEvEe2fWoq9BkNCVw"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WPWZYYEvEe2fWoq9BkNCVw" name="runThroughFilter">
+      <modelElement href="ProjektisChatas.uml#_WOnZgIEvEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_WPWZYoEvEe2fWoq9BkNCVw" name="Array">
+        <modelElement href="ProjektisChatas.uml#_WOnZhIEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_WPWZY4EvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPWZZIEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_WPWZZYEvEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_WOnZgoEvEe2fWoq9BkNCVw"/>
+        <type xmi:id="_WPWZZoEvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WPWZZ4EvEe2fWoq9BkNCVw" name="words">
+        <modelElement href="ProjektisChatas.uml#_WOnZgYEvEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_WPWZaIEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_WPWZaYEvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WPWZaoEvEe2fWoq9BkNCVw" name="getCriterias">
+      <modelElement href="ProjektisChatas.uml#_WOnZhoEvEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_WPWZa4EvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPWZbIEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_WPWZbYEvEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_WOoAkIEvEe2fWoq9BkNCVw"/>
+        <type xmi:id="_WPWZboEvEe2fWoq9BkNCVw" name="Criteria">
+          <modelElement href="ProjektisChatas.uml#_WOjIEIEvEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WPWZb4EvEe2fWoq9BkNCVw" name="getCriteriaByBannedWord">
+      <modelElement href="ProjektisChatas.uml#_WOoAkoEvEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_WPWZcIEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPWZcYEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WPWZcoEvEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_WO2DBYEvEe2fWoq9BkNCVw"/>
+        <type xmi:id="_WPWZc4EvEe2fWoq9BkNCVw" name="Criteria">
+          <modelElement href="ProjektisChatas.uml#_WOjIEIEvEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WPWZdIEvEe2fWoq9BkNCVw" name="bannedword">
+        <modelElement href="ProjektisChatas.uml#_WOoAk4EvEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_WPWZdYEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_WPWZdoEvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WPWZd4EvEe2fWoq9BkNCVw" name="add">
+      <modelElement href="ProjektisChatas.uml#_WO2DAYEvEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_WPWZeIEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPWZeYEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WPWZeoEvEe2fWoq9BkNCVw" name="criteria">
+        <modelElement href="ProjektisChatas.uml#_WO2DAoEvEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_WPWZe4EvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_WPWZfIEvEe2fWoq9BkNCVw" name="Criteria">
+          <modelElement href="ProjektisChatas.uml#_WOjIEIEvEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WPWZfYEvEe2fWoq9BkNCVw" name="remove">
+      <modelElement href="ProjektisChatas.uml#_WO2DA4EvEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_WPWZfoEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPWZf4EvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WPWZgIEvEe2fWoq9BkNCVw" name="criteria">
+        <modelElement href="ProjektisChatas.uml#_WO2DBIEvEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_WPWZgYEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_WPWZgoEvEe2fWoq9BkNCVw" name="Criteria">
+          <modelElement href="ProjektisChatas.uml#_WOjIEIEvEe2fWoq9BkNCVw"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_WPY1kIEvEe2fWoq9BkNCVw" name="Criteria" associationsIn="_WPWZUIEvEe2fWoq9BkNCVw" subclassedBy="_WPeVIIEvEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_WOjIEIEvEe2fWoq9BkNCVw"/>
+    <visualProperties xmi:id="_WPY1kYEvEe2fWoq9BkNCVw" position="544.0,-140.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WPY1koEvEe2fWoq9BkNCVw" label="+"/>
+    <attributes xmi:id="_WPY1k4EvEe2fWoq9BkNCVw" name="bannedWord">
+      <modelElement href="ProjektisChatas.uml#_WOkWNIEvEe2fWoq9BkNCVw"/>
+      <visibility xmi:id="_WPY1lIEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPY1lYEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_WPY1loEvEe2fWoq9BkNCVw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WPY1l4EvEe2fWoq9BkNCVw" name="criteria">
+      <modelElement href="ProjektisChatas.uml#_WOjvKYEvEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_WPY1mIEvEe2fWoq9BkNCVw" name="Array">
+        <modelElement href="ProjektisChatas.uml#_WOkWMoEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_WPY1mYEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPY1moEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_WPY1m4EvEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_WOkWMIEvEe2fWoq9BkNCVw"/>
+        <type xmi:id="_WPY1nIEvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WPY1nYEvEe2fWoq9BkNCVw" name="words">
+        <modelElement href="ProjektisChatas.uml#_WOjvKoEvEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_WPY1noEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_WPY1n4EvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WPe8MIEvEe2fWoq9BkNCVw" name="CriteriaFactory" generalizations="_WPeVIIEvEe2fWoq9BkNCVw">
+    <modelElement href="ProjektisChatas.uml#_WOk9QIEvEe2fWoq9BkNCVw"/>
+    <visualProperties xmi:id="_WPe8MYEvEe2fWoq9BkNCVw" position="45.0,254.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_WPe8MoEvEe2fWoq9BkNCVw" label="+"/>
+    <attributes xmi:id="_WPe8M4EvEe2fWoq9BkNCVw" name="bannedword">
+      <modelElement href="ProjektisChatas.uml#_WO2qEIEvEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_WPe8NIEvEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_WO2qEYEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_WPe8NYEvEe2fWoq9BkNCVw" label="-"/>
+      <cardinality xmi:id="_WPe8NoEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <type xmi:id="_WPe8N4EvEe2fWoq9BkNCVw" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WPe8OIEvEe2fWoq9BkNCVw" name="CriteriaFactory">
+      <modelElement href="ProjektisChatas.uml#_WOk9QYEvEe2fWoq9BkNCVw"/>
+      <keywords xmi:id="_WPe8OYEvEe2fWoq9BkNCVw" keyword="create"/>
+      <visibility xmi:id="_WPe8OoEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPe8O4EvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WPe8PIEvEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_WOk9RYEvEe2fWoq9BkNCVw"/>
+        <type xmi:id="_WPe8PYEvEe2fWoq9BkNCVw" name="CriteriaFactory">
+          <modelElement href="ProjektisChatas.uml#_WOk9QIEvEe2fWoq9BkNCVw"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WPe8PoEvEe2fWoq9BkNCVw" name="bannedword">
+        <modelElement href="ProjektisChatas.uml#_WOk9QoEvEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_WPe8P4EvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+        <type xmi:id="_WPe8QIEvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WPe8QYEvEe2fWoq9BkNCVw" name="criteria">
+      <modelElement href="ProjektisChatas.uml#_WOk9RoEvEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_WPe8QoEvEe2fWoq9BkNCVw" name="Array">
+        <modelElement href="ProjektisChatas.uml#_WOlkU4EvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WPe8Q4EvEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_WOlkVIEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WPe8RIEvEe2fWoq9BkNCVw" name="Annotations">
+        <modelElement href="ProjektisChatas.uml#_WOmLYIEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_WPe8RYEvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPe8RoEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_WPe8R4EvEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_WOlkUYEvEe2fWoq9BkNCVw"/>
+        <type xmi:id="_WPe8SIEvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WPe8SYEvEe2fWoq9BkNCVw" name="words">
+        <modelElement href="ProjektisChatas.uml#_WOlkUIEvEe2fWoq9BkNCVw"/>
+        <cardinality xmi:id="_WPe8SoEvEe2fWoq9BkNCVw" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_WPe8S4EvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WPe8TIEvEe2fWoq9BkNCVw" name="getBannedWord">
+      <modelElement href="ProjektisChatas.uml#_WOmLYoEvEe2fWoq9BkNCVw"/>
+      <stereotypes xmi:id="_WPe8TYEvEe2fWoq9BkNCVw" name="LegacyStyledElement">
+        <modelElement href="ProjektisChatas.uml#_WOmycIEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WPe8ToEvEe2fWoq9BkNCVw" name="Annotations">
+        <modelElement href="ProjektisChatas.uml#_WOmycYEvEe2fWoq9BkNCVw"/>
+      </stereotypes>
+      <visibility xmi:id="_WPe8T4EvEe2fWoq9BkNCVw" label="+"/>
+      <cardinality xmi:id="_WPe8UIEvEe2fWoq9BkNCVw" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WPe8UYEvEe2fWoq9BkNCVw">
+        <modelElement href="ProjektisChatas.uml#_WOmLY4EvEe2fWoq9BkNCVw"/>
+        <type xmi:id="_WPe8UoEvEe2fWoq9BkNCVw" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
